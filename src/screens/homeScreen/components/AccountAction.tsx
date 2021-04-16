@@ -1,8 +1,9 @@
+import myTheme from '@theme/theme';
 import React from 'react';
 import { ViewProps } from 'react-native';
 import styled from 'styled-components/native';
 
-const Container = styled.TouchableOpacity`
+const Container = styled.Pressable`
   background-color: #fff;
   border-radius: ${({ theme }) => theme.borderRadius.small}px;
   padding: 4px 8px;
@@ -21,7 +22,11 @@ interface AccountActionProps extends ViewProps {
 
 const AccountAction = ({ label, onPress, ...rest }: AccountActionProps) => {
   return (
-    <Container onPress={onPress} {...rest}>
+    <Container
+      onPress={onPress}
+      android_ripple={{ color: myTheme.palette.ripple.grey, radius: 30 }}
+      {...rest}
+    >
       <Label>{label}</Label>
     </Container>
   );

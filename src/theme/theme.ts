@@ -17,6 +17,9 @@ const theme = {
     menu: {
       default: '#F2F3EE',
     },
+    ripple: {
+      grey: 'rgba(0,0,0,0.25)',
+    },
   },
   spacing: (number: number) => number * 8,
   borderRadius: {
