@@ -9,7 +9,7 @@ const Container = styled.TouchableOpacity`
 `;
 
 const Label = styled.Text`
-  font-size: 9px;
+  font-size: 11px;
   font-weight: bold;
   color: ${({ theme }) => theme.palette.text.primary};
 `;

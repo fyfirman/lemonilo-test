@@ -10,13 +10,19 @@ const Container = styled.View`
   background-color: ${({ theme }) => theme.palette.background.lightGrey};
 `;
 
+const Content = styled.View`
+  padding: ${({ theme }) => theme.spacing(1)}px ${({ theme }) => theme.spacing(2)}px;
+`;
+
 const HomeScreen = () => {
   return (
     <Container>
       <SearchBar onFocus={() => console.log('TODO : to search screen')} />
       <ScrollView>
         <AccountInfo />
-        <Text>Homescreen</Text>
+        <Content>
+          <Text>Homescreen</Text>
+        </Content>
       </ScrollView>
     </Container>
   );

@@ -16,6 +16,7 @@ const InfoContainer = styled.View`
 `;
 
 const NameText = styled.Text`
+  font-size: 16px;
   font-weight: bold;
   color: ${({ theme }) => theme.palette.text.primary};
 `;
