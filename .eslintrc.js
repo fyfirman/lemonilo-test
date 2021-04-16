@@ -32,6 +32,7 @@ module.exports = {
         'prefer-template': 'error',
         'spaced-comment': ['error', 'always', { markers: ['/'] }],
         'import/no-unresolved': 'off',
+        'object-curly-newline': 'off',
         '@typescript-eslint/camelcase': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
         '@typescript-eslint/no-unused-vars': [
