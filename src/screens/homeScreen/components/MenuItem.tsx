@@ -36,7 +36,7 @@ const MenuItem = (props: MenuItemProps) => {
   return (
     <Container width={width} onPress={onPress}>
       <IconContainer backgroundColor={backgroundColor ?? myTheme.palette.menu.default}>
-        <Avatar source={{ uri: imageUri }} size={32} />
+        <Avatar source={{ uri: imageUri }} size={36} />
       </IconContainer>
       <Label>{label}</Label>
     </Container>
