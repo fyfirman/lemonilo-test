@@ -1,3 +1,4 @@
+import Avatar from '@components/Avatar';
 import React from 'react';
 import styled from 'styled-components/native';
 import AccountAction from './AccountAction';
@@ -12,13 +13,6 @@ const InfoContainer = styled.View`
   flex-direction: row;
   align-items: center;
   padding-top: ${({ theme }) => theme.spacing(1)}px;
-`;
-
-const Avatar = styled.Image`
-  border-radius: 100px;
-  width: 40px;
-  height: 40px;
-  margin-right: ${({ theme }) => theme.spacing(1)}px;
 `;
 
 const NameText = styled.Text`
