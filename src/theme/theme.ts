@@ -11,6 +11,7 @@ const theme = {
       secondary: 'rgba(0,0,0,0.5)',
     },
   },
+  spacing: (number: number) => number * 8,
 };
 
 export type MyTheme = typeof theme;
