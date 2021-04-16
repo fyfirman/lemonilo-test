@@ -11,6 +11,7 @@ const menuData : IMenu[] = [
   { label: 'Trains', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
   { label: 'Buses & Shuttles', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
   { label: 'Cars', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
+  { label: 'Motorcycle', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
   { label: 'Finance', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
   { label: 'All Products', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
 ];

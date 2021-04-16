@@ -3,10 +3,11 @@ import myTheme from '@theme/theme';
 import React from 'react';
 import styled from 'styled-components/native';
 
-const Container = styled.TouchableOpacity`
+const Container = styled.TouchableOpacity<{ width: number }>`
   padding: ${({ theme }) => theme.spacing(1)}px 0px;
   margin-bottom: ${({ theme }) => theme.spacing(1)}px;
   align-items: center;
+  width: ${(props) => props.width};
 `;
 
 const IconContainer = styled.View<{ backgroundColor: string }>`
@@ -19,6 +20,7 @@ const IconContainer = styled.View<{ backgroundColor: string }>`
 const Label = styled.Text`
   color: ${({ theme }) => theme.palette.text.secondary};
   font-size: 11px;
+  text-align: center;
 `;
 
 interface MenuItemProps {
@@ -26,12 +28,13 @@ interface MenuItemProps {
   imageUri?: string;
   backgroundColor?: string;
   onPress: () => any;
+  width: number;
 }
 
 const MenuItem = (props: MenuItemProps) => {
-  const { label, imageUri, backgroundColor, onPress } = props;
+  const { label, imageUri, backgroundColor, width, onPress } = props;
   return (
-    <Container onPress={onPress}>
+    <Container width={width} onPress={onPress}>
       <IconContainer backgroundColor={backgroundColor ?? myTheme.palette.menu.default}>
         <Avatar source={{ uri: imageUri }} size={32} />
       </IconContainer>
