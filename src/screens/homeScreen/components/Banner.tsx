@@ -13,8 +13,9 @@ const Description = styled.Text`
   color: ${({ theme }) => theme.palette.text.secondary};
 `;
 
-const ImageWrapper = styled.Pressable`
+const ImageWrapper = styled.TouchableHighlight`
   margin-top: ${({ theme }) => theme.spacing(1)}px;
+  border-radius: ${({ theme }) => theme.borderRadius.small}px;
 `;
 
 const ImageBanner = styled.Image`
@@ -35,7 +36,7 @@ const Banner = (props: BannerProps) => {
     <Container>
       <Title>{title}</Title>
       <Description>{desc}</Description>
-      <ImageWrapper onPress={onPress} android_ripple={{ color: 'red' }}>
+      <ImageWrapper onPress={onPress}>
         <ImageBanner
           source={{
             uri: imageUri,
