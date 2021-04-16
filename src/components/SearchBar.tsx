@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components/native';
 
 const Container = styled.View`
-  padding: ${({ theme }) => theme.spacing(1)}px;
+  padding: ${({ theme }) => theme.spacing(1)}px ${({ theme }) => theme.spacing(2)}px;
   background-color: ${({ theme }) => theme.palette.primary.main};
 `;
 

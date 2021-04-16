@@ -1,0 +1,52 @@
+import React from 'react';
+import styled from 'styled-components/native';
+import AccountAction from './AccountAction';
+
+const Container = styled.View`
+  background-color: ${({ theme }) => theme.palette.background.grey};
+  width: 100%;
+  padding: ${({ theme }) => theme.spacing(1)}px ${({ theme }) => theme.spacing(2)}px;
+`;
+
+const InfoContainer = styled.View`
+  flex-direction: row;
+  align-items: center;
+  padding-top: ${({ theme }) => theme.spacing(1)}px;
+`;
+
+const Avatar = styled.Image`
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  margin-right: ${({ theme }) => theme.spacing(1)}px;
+`;
+
+const NameText = styled.Text`
+  font-weight: bold;
+  color: ${({ theme }) => theme.palette.text.primary};
+`;
+
+const AccountInfo = () => {
+  return (
+    <Container>
+      <InfoContainer>
+        <Avatar
+          source={{
+            uri: 'https://reactnative.dev/img/tiny_logo.png',
+          }}
+        />
+        <NameText>Firmansyah Yanuar</NameText>
+      </InfoContainer>
+      <InfoContainer>
+        <AccountAction
+          label="My Points"
+          onPress={() => console.log('Account actions')}
+          style={{ marginRight: 8 }}
+        />
+        <AccountAction label="Payment" onPress={() => console.log('Account actions')} />
+      </InfoContainer>
+    </Container>
+  );
+};
+
+export default AccountInfo;
