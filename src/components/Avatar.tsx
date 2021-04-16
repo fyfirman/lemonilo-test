@@ -1,10 +1,15 @@
 import styled from 'styled-components/native';
 
-const Avatar = styled.Image`
+interface AvatarProps {
+  size?: number;
+}
+
+const DEFAULT_SIZE = 40;
+
+const Avatar = styled.Image<AvatarProps>`
   border-radius: 100px;
-  width: 40px;
-  height: 40px;
-  margin-right: ${({ theme }) => theme.spacing(1)}px;
+  width: ${(props) => props.size ?? DEFAULT_SIZE}px;
+  height: ${(props) => props.size ?? DEFAULT_SIZE}px;
 `;
 
 export default Avatar;

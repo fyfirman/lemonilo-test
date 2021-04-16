@@ -1,9 +1,9 @@
 import SearchBar from '@components/SearchBar';
 import React from 'react';
-import { Text } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import styled from 'styled-components/native';
 import AccountInfo from './components/AccountInfo';
+import MenuItem from './components/MenuItem';
 
 const Container = styled.View`
   flex: 1;
@@ -14,6 +14,10 @@ const Content = styled.View`
   padding: ${({ theme }) => theme.spacing(1)}px ${({ theme }) => theme.spacing(2)}px;
 `;
 
+const MenuContainer = styled.View`
+  flex-direction: row;
+`;
+
 const HomeScreen = () => {
   return (
     <Container>
@@ -21,7 +25,18 @@ const HomeScreen = () => {
       <ScrollView>
         <AccountInfo />
         <Content>
-          <Text>Homescreen</Text>
+          <MenuContainer>
+            <MenuItem
+              imageUri="https://reactnative.dev/img/tiny_logo.png"
+              label="Flight"
+              onPress={() => console.log('TODO: go to menu screen')}
+            />
+            <MenuItem
+              imageUri="https://reactnative.dev/img/tiny_logo.png"
+              label="Flight"
+              onPress={() => console.log('TODO: go to menu screen')}
+            />
+          </MenuContainer>
         </Content>
       </ScrollView>
     </Container>

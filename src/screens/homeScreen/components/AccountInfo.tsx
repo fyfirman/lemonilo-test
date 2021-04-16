@@ -19,6 +19,7 @@ const NameText = styled.Text`
   font-size: 16px;
   font-weight: bold;
   color: ${({ theme }) => theme.palette.text.primary};
+  margin-left: ${({ theme }) => theme.spacing(1)}px;
 `;
 
 const AccountInfo = () => {

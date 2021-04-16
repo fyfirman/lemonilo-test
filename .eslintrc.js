@@ -43,7 +43,7 @@ module.exports = {
           'error',
           {
             selector: 'variable',
-            format: ['camelCase', 'PascalCase'],
+            format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
             filter: {
               regex: '^_|[R-r]eact',
               match: false,
