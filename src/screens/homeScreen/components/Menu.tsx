@@ -22,7 +22,7 @@ const Menu = () => {
             key={index}
             label={label}
             imageUri={imageUri}
-            width={40}
+            width={45}
             onPress={() => console.log('TODO: go to menu screen')}
           />
         ))}
