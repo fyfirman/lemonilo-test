@@ -1,10 +1,11 @@
-import * as React from 'react';
+import React, { useEffect } from 'react';
 import {
   SafeAreaView, ScrollView, StatusBar, useColorScheme,
 } from 'react-native';
 
 import { Colors, Header } from 'react-native/Libraries/NewAppScreen';
 import styled, { ThemeProvider } from 'styled-components/native';
+import SplashScreen from 'react-native-splash-screen';
 import theme from '@theme/theme';
 
 const HelloWorld = styled.Text`
@@ -17,6 +18,10 @@ const App = () => {
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
+
+  useEffect(() => {
+    SplashScreen.hide();
+  }, []);
 
   return (
     <ThemeProvider theme={theme}>
