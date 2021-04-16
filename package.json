@@ -17,6 +17,7 @@
     "@types/styled-components-react-native": "^5.1.1",
     "react": "17.0.1",
     "react-native": "0.64.0",
+    "react-native-easy-grid": "^0.2.2",
     "react-native-gesture-handler": "^1.10.3",
     "react-native-reanimated": "^2.1.0",
     "react-native-safe-area-context": "^3.2.0",
@@ -28,7 +29,7 @@
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
-    "@types/jest": "^26.0.20",
+    "@types/jest": "^26.0.22",
     "@types/react-native": "^0.64.0",
     "@types/react-test-renderer": "^16.9.2",
     "@typescript-eslint/eslint-plugin": "^4.4.1",
@@ -58,6 +59,15 @@
       "jsx",
       "json",
       "node"
-    ]
+    ],
+    "moduleNameMapper": {
+      "@assets/(.*)$": "<rootDir>/src/assets/$1",
+      "@components/(.*)$": "<rootDir>/src/components/$1",
+      "@constants/(.*)$": "<rootDir>/src/constants/$1",
+      "@router/(.*)$": "<rootDir>/src/router/$1",
+      "@screens/(.*)$": "<rootDir>/src/screens/$1",
+      "@theme/(.*)$": "<rootDir>/src/theme/$1",
+      "@utils/(.*)$": "<rootDir>/src/utils/$1"
+    }
   }
 }
