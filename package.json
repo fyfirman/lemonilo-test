@@ -15,7 +15,8 @@
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^4.0.8",
     "react": "17.0.1",
-    "react-native": "0.64.0"
+    "react-native": "0.64.0",
+    "styled-components": "^5.2.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
