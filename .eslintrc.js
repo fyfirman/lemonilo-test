@@ -28,6 +28,7 @@ module.exports = {
         'import/prefer-default-export': 'off',
         'arrow-body-style': 'off',
         'no-undef': 'off',
+        'no-plusplus': 'off',
         'implicit-arrow-linebreak': 'off',
         'no-unused-vars': 'off',
         'prefer-template': 'error',
