@@ -1,9 +1,10 @@
 import Avatar from '@components/Avatar';
+import myTheme from '@theme/theme';
 import React from 'react';
 import styled from 'styled-components/native';
 
 const Container = styled.TouchableOpacity`
-  padding: ${({ theme }) => theme.spacing(1)}px;
+  padding: ${({ theme }) => theme.spacing(1)}px 0px;
   margin-bottom: ${({ theme }) => theme.spacing(1)}px;
   align-items: center;
 `;
@@ -16,7 +17,8 @@ const IconContainer = styled.View<{ backgroundColor: string }>`
 `;
 
 const Label = styled.Text`
-  color: ${({ theme }) => theme.palette.text.primary};
+  color: ${({ theme }) => theme.palette.text.secondary};
+  font-size: 11px;
 `;
 
 interface MenuItemProps {
@@ -30,7 +32,7 @@ const MenuItem = (props: MenuItemProps) => {
   const { label, imageUri, backgroundColor, onPress } = props;
   return (
     <Container onPress={onPress}>
-      <IconContainer backgroundColor={backgroundColor ?? '#F00'}>
+      <IconContainer backgroundColor={backgroundColor ?? myTheme.palette.menu.default}>
         <Avatar source={{ uri: imageUri }} size={32} />
       </IconContainer>
       <Label>{label}</Label>

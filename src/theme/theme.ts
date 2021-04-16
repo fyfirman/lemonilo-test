@@ -14,6 +14,9 @@ const theme = {
       primary: 'rgba(0,0,0,0.8)',
       secondary: 'rgba(0,0,0,0.5)',
     },
+    menu: {
+      default: '#F2F3EE',
+    },
   },
   spacing: (number: number) => number * 8,
   borderRadius: {
