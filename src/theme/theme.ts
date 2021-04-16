@@ -6,6 +6,10 @@ const theme = {
       light: '#2FC6F7',
     },
     alert: '#F53E29',
+    text: {
+      primary: 'rgba(0,0,0,0.8)',
+      secondary: 'rgba(0,0,0,0.5)',
+    },
   },
 };
 
