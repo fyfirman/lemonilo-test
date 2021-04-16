@@ -44,6 +44,7 @@
       "@constants/*": ["constants/*"],
       "@components/*": ["components/*"],
       "@router/*": ["router/*"],
+      "@theme/*": ["theme/*"],
       "@screens/*": ["screens/*"],
       "@utils/*": ["utils/*"]
     } /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */,
