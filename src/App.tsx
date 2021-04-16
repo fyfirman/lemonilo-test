@@ -4,10 +4,11 @@ import {
 } from 'react-native';
 
 import { Colors, Header } from 'react-native/Libraries/NewAppScreen';
-import styled from 'styled-components/native';
+import styled, { ThemeProvider } from 'styled-components/native';
+import theme from '@theme/theme';
 
 const HelloWorld = styled.Text`
-  background-color: #ff0000;
+  background-color: ${(props) => props.theme.palette.primary.main};
 `;
 
 const App = () => {
@@ -18,13 +19,15 @@ const App = () => {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <ScrollView contentInsetAdjustmentBehavior="automatic" style={backgroundStyle}>
-        <Header />
-        <HelloWorld>Hello world</HelloWorld>
-      </ScrollView>
-    </SafeAreaView>
+    <ThemeProvider theme={theme}>
+      <SafeAreaView style={backgroundStyle}>
+        <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+        <ScrollView contentInsetAdjustmentBehavior="automatic" style={backgroundStyle}>
+          <Header />
+          <HelloWorld>Hello world</HelloWorld>
+        </ScrollView>
+      </SafeAreaView>
+    </ThemeProvider>
   );
 };
 
