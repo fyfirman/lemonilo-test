@@ -22,11 +22,11 @@ const Price = styled.Text`
 export interface HighlightItemData {
   name: string;
   price: number;
-  rating: number;
+  rating?: number;
   imageUri: string;
 }
 
-interface HighlightItemProps extends HighlightItemData{
+interface HighlightItemProps extends HighlightItemData {
   onPress: () => any;
 }
 
