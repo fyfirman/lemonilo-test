@@ -19,15 +19,18 @@ const Price = styled.Text`
   color: ${({ theme }) => theme.palette.text.secondary};
 `;
 
-interface HotelItemProps {
+export interface HighlightItemData {
   name: string;
   price: number;
   rating: number;
   imageUri: string;
+}
+
+interface HighlightItemProps extends HighlightItemData{
   onPress: () => any;
 }
 
-const HotelItem = (props: HotelItemProps) => {
+const HighlightItem = (props: HighlightItemProps) => {
   const { name, price, imageUri, onPress } = props;
 
   return (
@@ -39,4 +42,4 @@ const HotelItem = (props: HotelItemProps) => {
   );
 };
 
-export default HotelItem;
+export default HighlightItem;

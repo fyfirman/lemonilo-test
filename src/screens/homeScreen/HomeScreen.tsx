@@ -4,7 +4,8 @@ import { ScrollView } from 'react-native-gesture-handler';
 import styled from 'styled-components/native';
 import AccountInfo from './components/AccountInfo';
 import Banner from './components/Banner';
-import HotelHighlight from './components/HotelHighlight';
+import HighlightSwiper from './components/HighlightSwiper';
+import hotel from './components/hotel';
 import Menu from './components/Menu';
 
 const Container = styled.View`
@@ -30,7 +31,7 @@ const HomeScreen = () => {
             imageUri="https://via.placeholder.com/350x150"
             onPress={() => console.log('Banner pressed')}
           />
-          <HotelHighlight />
+          <HighlightSwiper data={hotel} onPress={(item) => console.log(`${item.name} pressed`)} />
         </Content>
       </ScrollView>
     </Container>
