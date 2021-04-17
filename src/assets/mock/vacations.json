@@ -1,98 +1,114 @@
-{
-  "attraction": [
-    {
-      "id": 1,
-      "name": "Tiket Dunia Fantasi (Dufan) Ancol - Easy Access",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001186750067/Dunia%2520Fantasi%2520%2528Dufan%2529%2520Ancol%2520Tickets%2520-%2520Easy%2520Access-3371f9c4-7ccb-4c07-84c7-5595e420caf5.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
-      "price": 115000
-    },
-    {
-      "id": 2,
-      "name": "Tiket Swiss-Belresort Dago Heritage Bandung Pool ",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000044049259/Swiss-Belresort%2520Dago%2520Heritage%2520Bandung%2520Pool%2520Tickets-a7d27f2a-9a25-402f-80df-b1fc93fe3419.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
-      "price": 90000
-    },
-    {
-      "id": 3,
-      "name": "Tiket Kawah Putih",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001297537845/Kawah%2520Putih%2520Admission%2520Tickets-1bfbe68e-71d0-4bc3-96bb-988b5fbb8201.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
-      "price": 38000
-    },
-    {
-      "id": 4,
-      "name": "Tiket Dusun Bambu",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000711922371/Dusun%2520Bambu%2520Lembang%2520Tickets-6b7651c6-8c31-41da-af10-9639b3ec6409.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
-      "price": 100000
-    },
-    {
-      "id": 5,
-      "name": "Tiket The Great Asia Africa",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/3268372988704/The%2520Great%2520Asia%2520Africa%2520Tickets-6cda027d-cf35-43a0-a537-28977894fec2.jpeg?_src=imagekit&tr=c-at_max,h-512,q-60,w-720",
-      "price": 50000
-    }
-  ],
-  "playground": [
-    {
-      "id": 1,
-      "name": "Tiket kidzooona 23 Paskal Shopping Center",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001518454019/kidzooona%252023%2520Paskal%2520Shopping%2520Center%2520Tickets-6064661f-9c58-4cb6-b025-ead64fcf2871.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
-      "price": 55200
-    },
-    {
-      "id": 2,
-      "name": "Joy N Fun Festival City Link",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001871272969/Joy%2520N%2520Fun%2520Festival%2520City%2520Link-61055bfc-c44e-4588-a66a-b99d86b7ba4f.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
-      "price": 48500
-    },
-    {
-      "id": 3,
-      "name": "Joy N Fun Bandung Electronic Center",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001871273000/Joy%2520N%2520Fun%2520Bandung%2520Electronic%2520Center-89112cd0-ee1c-4003-afee-4e8b0cf6b132.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
-      "price": 38800
-    },
-    {
-      "id": 4,
-      "name": "Tiket Hooray Paris Van Java",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001025600954/Hooray%2520Paris%2520Van%2520Java%2520Tickets%2520-05cb1bd0-29e3-4f45-8740-19bd51377f3b.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
-      "price": 85000
-    },
-    {
-      "id": 5,
-      "name": "Voucher Top-Up Game Master Festival City Link",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001871271886/Game%2520Master%2520Festival%2520City%2520Link%2520Top-Up%2520Voucher-54bf48f1-fceb-49db-a3c9-c0cffd8226c8.jpeg?_src=imagekit&tr=c-at_max,h-400,q-60,w-720",
-      "price": 45000
-    }
-  ],
-  "beauty": [
-    {
-      "id": 1,
-      "name": "Double Eight Beauty",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001267112987/Double%2520Eight%2520Beauty-70b65a3d-b1a5-4385-9d61-ce17104b09ac.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
-      "price": 99000
-    },
-    {
-      "id": 2,
-      "name": "ZAP Clinic Bandung Anggrek",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000118594974/ZAP%2520Clinic%2520Bandung%2520Anggrek-10404277-7ab9-4639-8ab7-a92447401a89.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
-      "price": 1999000
-    },
-    {
-      "id": 3,
-      "name": "Airin Skin Katapang",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001154607910/Airin%2520Skin%2520Katapang-9bc3f763-4644-4c36-a588-cc43c66b7377.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
-      "price": 157000
-    },
-    {
-      "id": 4,
-      "name": "De Fred Barbershop Burangrang",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000082805084/De%2520Fred%2520Barbershop%2520Burangrang-94e431eb-f807-4006-8e76-6679789faff6.jpeg?_src=imagekit&tr=c-at_max,h-400,q-60,w-720",
-      "price": 36700
-    },
-    {
-      "id": 5,
-      "name": "Bali Odyssey Massage Centre",
-      "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000666559371/Bali%2520Odyssey%2520Massage%2520Centre-b63c5a62-d3a9-42db-ba4a-a41bc35f7637.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
-      "price": 182000
-    }
-  ]
-}
+[
+  {
+    "id": 7,
+    "category": "playground",
+    "name": "Joy N Fun Festival City Link",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001871272969/Joy%2520N%2520Fun%2520Festival%2520City%2520Link-61055bfc-c44e-4588-a66a-b99d86b7ba4f.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
+    "price": 48500
+  },
+  {
+    "id": 1,
+    "category": "attraction",
+    "name": "Tiket Dunia Fantasi (Dufan) Ancol - Easy Access",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001186750067/Dunia%2520Fantasi%2520%2528Dufan%2529%2520Ancol%2520Tickets%2520-%2520Easy%2520Access-3371f9c4-7ccb-4c07-84c7-5595e420caf5.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
+    "price": 115000
+  },
+  {
+    "id": 15,
+    "category": "beauty",
+    "name": "Bali Odyssey Massage Centre",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000666559371/Bali%2520Odyssey%2520Massage%2520Centre-b63c5a62-d3a9-42db-ba4a-a41bc35f7637.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
+    "price": 182000
+  },
+  {
+    "id": 2,
+    "category": "attraction",
+    "name": "Tiket Swiss-Belresort Dago Heritage Bandung Pool ",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000044049259/Swiss-Belresort%2520Dago%2520Heritage%2520Bandung%2520Pool%2520Tickets-a7d27f2a-9a25-402f-80df-b1fc93fe3419.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
+    "price": 90000
+  },
+  {
+    "id": 3,
+    "category": "attraction",
+    "name": "Tiket Kawah Putih",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001297537845/Kawah%2520Putih%2520Admission%2520Tickets-1bfbe68e-71d0-4bc3-96bb-988b5fbb8201.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
+    "price": 38000
+  },
+  {
+    "id": 4,
+    "category": "attraction",
+    "name": "Tiket Dusun Bambu",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000711922371/Dusun%2520Bambu%2520Lembang%2520Tickets-6b7651c6-8c31-41da-af10-9639b3ec6409.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
+    "price": 100000
+  },
+  {
+    "id": 5,
+    "category": "attraction",
+    "name": "Tiket The Great Asia Africa",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/3268372988704/The%2520Great%2520Asia%2520Africa%2520Tickets-6cda027d-cf35-43a0-a537-28977894fec2.jpeg?_src=imagekit&tr=c-at_max,h-512,q-60,w-720",
+    "price": 50000
+  },
+  {
+    "id": 6,
+    "category": "playground",
+    "name": "Tiket kidzooona 23 Paskal Shopping Center",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001518454019/kidzooona%252023%2520Paskal%2520Shopping%2520Center%2520Tickets-6064661f-9c58-4cb6-b025-ead64fcf2871.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
+    "price": 55200
+  },
+  {
+    "id": 7,
+    "category": "playground",
+    "name": "Joy N Fun Festival City Link",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001871272969/Joy%2520N%2520Fun%2520Festival%2520City%2520Link-61055bfc-c44e-4588-a66a-b99d86b7ba4f.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
+    "price": 48500
+  },
+  {
+    "id": 8,
+    "category": "playground",
+    "name": "Joy N Fun Bandung Electronic Center",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001871273000/Joy%2520N%2520Fun%2520Bandung%2520Electronic%2520Center-89112cd0-ee1c-4003-afee-4e8b0cf6b132.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
+    "price": 38800
+  },
+  {
+    "id": 9,
+    "category": "playground",
+    "name": "Tiket Hooray Paris Van Java",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001025600954/Hooray%2520Paris%2520Van%2520Java%2520Tickets%2520-05cb1bd0-29e3-4f45-8740-19bd51377f3b.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
+    "price": 85000
+  },
+  {
+    "id": 10,
+    "category": "playground",
+    "name": "Voucher Top-Up Game Master Festival City Link",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001871271886/Game%2520Master%2520Festival%2520City%2520Link%2520Top-Up%2520Voucher-54bf48f1-fceb-49db-a3c9-c0cffd8226c8.jpeg?_src=imagekit&tr=c-at_max,h-400,q-60,w-720",
+    "price": 45000
+  },
+  {
+    "id": 11,
+    "category": "beauty",
+    "name": "Double Eight Beauty",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001267112987/Double%2520Eight%2520Beauty-70b65a3d-b1a5-4385-9d61-ce17104b09ac.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
+    "price": 99000
+  },
+  {
+    "id": 12,
+    "category": "beauty",
+    "name": "ZAP Clinic Bandung Anggrek",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000118594974/ZAP%2520Clinic%2520Bandung%2520Anggrek-10404277-7ab9-4639-8ab7-a92447401a89.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
+    "price": 1999000
+  },
+  {
+    "id": 13,
+    "category": "beauty",
+    "name": "Airin Skin Katapang",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001154607910/Airin%2520Skin%2520Katapang-9bc3f763-4644-4c36-a588-cc43c66b7377.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
+    "price": 157000
+  },
+  {
+    "id": 14,
+    "category": "beauty",
+    "name": "De Fred Barbershop Burangrang",
+    "imageUri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000082805084/De%2520Fred%2520Barbershop%2520Burangrang-94e431eb-f807-4006-8e76-6679789faff6.jpeg?_src=imagekit&tr=c-at_max,h-400,q-60,w-720",
+    "price": 36700
+  }
+]

@@ -6,9 +6,7 @@ import hotels from '@assets/mock/hotels.json';
 import vacations from '@assets/mock/vacations.json';
 import AccountInfo from './components/AccountInfo';
 import Banner from './components/Banner';
-import HighlightSwiper from './components/HighlightSwiper';
 import Menu from './components/Menu';
-import FilterButton from './components/FilterButton';
 import FilterableSwiper from './components/FilterableSwiper';
 
 const Container = styled.View`
@@ -33,10 +31,6 @@ const Description = styled.Text`
 
 const Content = styled.View`
   padding: ${({ theme }) => theme.spacing(1)}px ${({ theme }) => theme.spacing(2)}px;
-`;
-
-const FilterContainer = styled.ScrollView`
-  margin-bottom: ${({ theme }) => theme.spacing(1)}px;
 `;
 
 const HomeScreen = () => {
@@ -74,15 +68,14 @@ const HomeScreen = () => {
           <Section>
             <Heading>Vacation</Heading>
             <Description>Best vacation to refresh your mind</Description>
-            <FilterContainer horizontal showsHorizontalScrollIndicator={false}>
-              <FilterButton onPress={() => console.log('filter pressed')} title="Test" active />
-              <FilterButton onPress={() => console.log('filter pressed')} title="Test" />
-              <FilterButton onPress={() => console.log('filter pressed')} title="Test" />
-            </FilterContainer>
-            <HighlightSwiper
-              heading="Vacation"
-              description=""
-              data={vacations.attraction}
+            <FilterableSwiper
+              filterBy="category"
+              filterOptions={[
+                { key: 'attraction', label: 'Attraction' },
+                { key: 'playground', label: 'Hiburan' },
+                { key: 'beauty', label: 'Beauty & Spa' },
+              ]}
+              data={vacations}
               onPress={(item) => console.log(`${item.name} pressed`)}
             />
           </Section>
