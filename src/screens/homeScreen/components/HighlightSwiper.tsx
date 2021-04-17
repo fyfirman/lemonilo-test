@@ -1,5 +1,7 @@
 import React from 'react';
+import { View } from 'react-native';
 import styled from 'styled-components/native';
+import FilterButton from './FilterButton';
 import HighlightItem, { HighlightItemData } from './HighlightItem';
 
 const Container = styled.View`
@@ -14,6 +16,11 @@ const Heading = styled.Text`
 
 const Description = styled.Text`
   color: ${({ theme }) => theme.palette.text.secondary};
+`;
+
+const FilterContainer = styled.View`
+  flex-direction: row;
+  margin-top: ${({ theme }) => theme.spacing(1)}px;
 `;
 
 const ItemContainer = styled.ScrollView`
@@ -48,6 +55,11 @@ const HighlightSwiper = (props: HighlightSwiperProps) => {
     <Container>
       <Heading>{heading}</Heading>
       <Description>{description}</Description>
+      <FilterContainer>
+        <FilterButton title="Button" onPress={() => console.log('Filter pressed')} active />
+        <FilterButton title="Button" onPress={() => console.log('Filter pressed')} />
+        <FilterButton title="Button" onPress={() => console.log('Filter pressed')} />
+      </FilterContainer>
       <ItemContainer horizontal showsHorizontalScrollIndicator={false}>
         {renderItem()}
       </ItemContainer>
