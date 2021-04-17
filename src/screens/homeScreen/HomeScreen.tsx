@@ -14,7 +14,7 @@ const Container = styled.View`
   background-color: ${({ theme }) => theme.palette.background.lightGrey};
 `;
 
-const HighlightContainer = styled.View`
+const Section = styled.View`
   padding: ${({ theme }) => theme.spacing(1)}px 0;
 `;
 
@@ -26,6 +26,7 @@ const Heading = styled.Text`
 
 const Description = styled.Text`
   color: ${({ theme }) => theme.palette.text.secondary};
+  margin-bottom: ${({ theme }) => theme.spacing(1)}px;
 `;
 
 const Content = styled.View`
@@ -40,13 +41,15 @@ const HomeScreen = () => {
         <AccountInfo />
         <Content>
           <Menu />
-          <Banner
-            title="Travelemon Deals!"
-            desc="Get discount up to 99% and special offers on various products"
-            imageUri="https://via.placeholder.com/350x150"
-            onPress={() => console.log('Banner pressed')}
-          />
-          <HighlightContainer>
+          <Section>
+            <Heading>Travelemon Deals!</Heading>
+            <Description>Get discount up to 99% and special offers on various products</Description>
+            <Banner
+              imageUri="https://via.placeholder.com/350x150"
+              onPress={() => console.log('Banner pressed')}
+            />
+          </Section>
+          <Section>
             <Heading>Hotels</Heading>
             <Description>Best hotel pick to rest yourself</Description>
             <HighlightSwiper
@@ -55,8 +58,8 @@ const HomeScreen = () => {
               data={hotels}
               onPress={(item) => console.log(`${item.name} pressed`)}
             />
-          </HighlightContainer>
-          <HighlightContainer>
+          </Section>
+          <Section>
             <Heading>Vacation</Heading>
             <Description>Best vacation to refresh your mind</Description>
             <HighlightSwiper
@@ -65,7 +68,7 @@ const HomeScreen = () => {
               data={vacations.attraction}
               onPress={(item) => console.log(`${item.name} pressed`)}
             />
-          </HighlightContainer>
+          </Section>
         </Content>
       </ScrollView>
     </Container>

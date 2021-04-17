@@ -2,9 +2,7 @@ import React from 'react';
 import styled from 'styled-components/native';
 import HighlightItem, { HighlightItemData } from './HighlightItem';
 
-const ItemContainer = styled.ScrollView`
-  margin-top: ${({ theme }) => theme.spacing(1)}px;
-`;
+const ItemContainer = styled.ScrollView``;
 
 interface HighlightSwiperProps {
   heading: string;
