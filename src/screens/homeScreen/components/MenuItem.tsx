@@ -7,7 +7,7 @@ const Container = styled.TouchableOpacity<{ width: number }>`
   padding: ${({ theme }) => theme.spacing(1)}px 0px;
   margin-bottom: ${({ theme }) => theme.spacing(1)}px;
   align-items: center;
-  width: ${(props) => props.width};
+  width: ${(props) => props.width}px;
 `;
 
 const IconContainer = styled.View<{ backgroundColor: string }>`
