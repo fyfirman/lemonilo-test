@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import resolve from './resolveProperty';
 
 const useFilter = (initialData: Array<any> = [], key: any) => {
   const [data, setData] = useState(initialData);
@@ -7,7 +8,7 @@ const useFilter = (initialData: Array<any> = [], key: any) => {
 
   useEffect(() => {
     if (filter) {
-      setData(initialData.filter((value) => value[key] === filter));
+      setData(initialData.filter((value) => resolve(key, value) === filter));
     }
   }, [filter]);
 

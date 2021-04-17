@@ -58,6 +58,18 @@ it('should filter data depends on category', () => {
   ]);
 });
 
-it.skip('should filter data with sub attribute', () => {
-  const [data, setFilter] = renderHook(() => useFilter(initialData, 'subAttribute.id'));
+it('should filter data with sub property', () => {
+  const { result } = renderHook(() => useFilter(initialData, 'subAttribute.id'));
+
+  act(() => {
+    result.current.setFilter(2);
+  });
+
+  expect(result.current.data).toStrictEqual([{
+    name: 'Second data',
+    category: 'b',
+    subAttribute: {
+      id: 2,
+    },
+  }]);
 });
