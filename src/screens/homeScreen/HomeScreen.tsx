@@ -4,12 +4,12 @@ import { ScrollView } from 'react-native-gesture-handler';
 import styled from 'styled-components/native';
 import hotels from '@assets/mock/hotels.json';
 import vacations from '@assets/mock/vacations.json';
-import useFilterData from '@utils/useFilterData';
 import AccountInfo from './components/AccountInfo';
 import Banner from './components/Banner';
 import HighlightSwiper from './components/HighlightSwiper';
 import Menu from './components/Menu';
 import FilterButton from './components/FilterButton';
+import FilterableSwiper from './components/FilterableSwiper';
 
 const Container = styled.View`
   flex: 1;
@@ -40,12 +40,6 @@ const FilterContainer = styled.ScrollView`
 `;
 
 const HomeScreen = () => {
-  const hotelState = useFilterData(hotels, 'city.id');
-
-  const handleFilter = (cityId?: number) => {
-    hotelState.setFilter(cityId);
-  };
-
   return (
     <Container>
       <SearchBar onFocus={() => console.log('TODO : to search screen')} />
@@ -64,18 +58,15 @@ const HomeScreen = () => {
           <Section>
             <Heading>Hotels</Heading>
             <Description>Best hotel pick to rest yourself</Description>
-            <FilterContainer horizontal showsHorizontalScrollIndicator={false}>
-              <FilterButton onPress={() => handleFilter()} title="All" active />
-              <FilterButton onPress={() => handleFilter(1)} title="Bandung" />
-              <FilterButton onPress={() => handleFilter(5)} title="Surabaya" />
-              <FilterButton onPress={() => handleFilter(3)} title="Jakarta Pusat" />
-              <FilterButton onPress={() => handleFilter(2)} title="Jakarta Timur" />
-              <FilterButton onPress={() => handleFilter(4)} title="Jakarta Selatan" />
-            </FilterContainer>
-            <HighlightSwiper
-              heading="Vacation"
-              description=""
-              data={hotelState.data}
+            <FilterableSwiper
+              filterBy={[
+                { key: 1, label: 'Bandung' },
+                { key: 5, label: 'Surabaya' },
+                { key: 3, label: 'Jakarta Pusat' },
+                { key: 2, label: 'Jakarta Timur' },
+                { key: 4, label: 'Jakarta Selatan' },
+              ]}
+              data={hotels}
               onPress={(item) => console.log(`${item.name} pressed`)}
             />
           </Section>
