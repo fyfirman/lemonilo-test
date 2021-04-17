@@ -12,7 +12,7 @@ const useFilter = (initialData: Array<any> = [], key: any) => {
     }
   }, [filter]);
 
-  return { data, setFilter };
+  return { data, setFilter, filter };
 };
 
 export default useFilter;

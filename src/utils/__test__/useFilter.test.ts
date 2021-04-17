@@ -27,10 +27,11 @@ const initialData = [
 
 it('should use filter', () => {
   const { result } = renderHook(() => useFilter(initialData, 'subAttribute.id'));
-  const { data, setFilter } = result.current;
+  const { data, setFilter, filter } = result.current;
 
   expect(data).toBe(initialData);
   expect(typeof setFilter).toBe('function');
+  expect(filter).toBe(null);
 });
 
 it('should filter data depends on category', () => {
