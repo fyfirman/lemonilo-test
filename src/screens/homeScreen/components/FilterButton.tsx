@@ -24,7 +24,7 @@ interface FilterButtonProps {
 const FilterButton = ({ title, onPress, active = false }: FilterButtonProps) => {
   return (
     <Container active={active}>
-      <TouchableNativeFeedback onPress={onPress}>
+      <TouchableNativeFeedback onPress={onPress} disabled={active}>
         <Label active={active}>{title}</Label>
       </TouchableNativeFeedback>
     </Container>

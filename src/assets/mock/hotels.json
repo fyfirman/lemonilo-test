@@ -1,5 +1,138 @@
 [
   {
+    "id": 7,
+    "name": "Wyndham Surabaya",
+    "city": {
+      "id": 5,
+      "name": "Surabaya",
+      "provinceId": 3,
+      "province": {
+        "id": 3,
+        "name": "Jawa Timur"
+      }
+    },
+    "location": "Jalan Basuki Rahmat 67-73 , Genteng, Surabaya, Jawa Timur, Indonesia, 60271",
+    "imageUri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10041546-1064x710-FIT_AND_TRIM-c2a53b818f713c318cfff76076714071.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+    "rating": 8.7,
+    "numberOfReview": 5155,
+    "price": 672000,
+    "facilities": [
+      "AC",
+      "Restoran",
+      "Kolam Renang",
+      "Parkir",
+      "Wifi",
+      "Resepsionis 24 Jam"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "The Trans Luxury Hotel",
+    "city": {
+      "id": 1,
+      "name": "Bandung",
+      "provinceId": 1,
+      "province": {
+        "id": 1,
+        "name": "Jawa Barat"
+      }
+    },
+    "location": "Jl. Gatot Subroto No. 289, Buahbatu, Bandung, Jawa Barat, Indonesia, 40273",
+    "imageUri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10002404-f2ae40544c03ba073c23b46c959e9e31.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+    "rating": 9.0,
+    "numberOfReview": 5804,
+    "price": 1322500,
+    "facilities": [
+      "AC",
+      "Restoran",
+      "Kolam Renang",
+      "Parkir",
+      "Wifi",
+      "Resepsionis 24 Jam",
+      "Lift"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Bumi Surabaya City Resort",
+    "city": {
+      "id": 5,
+      "name": "Surabaya",
+      "provinceId": 3,
+      "province": {
+        "id": 3,
+        "name": "Jawa Timur"
+      }
+    },
+    "location": "Jl. Jendral Basuki Rahmat No. 106 - 128 Surabaya, Genteng, Surabaya, Jawa Timur, Indonesia, 60271",
+    "imageUri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000090-1024x652-FIT_AND_TRIM-1b16b1ff0b14652fa52c44daa9acd268.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+    "rating": 8.8,
+    "numberOfReview": 5810,
+    "price": 1032703,
+    "facilities": [
+      "Restoran",
+      "Kolam Renang",
+      "Parkir",
+      "Wifi",
+      "Resepsionis 24 Jam",
+      "Lift"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "The Papandayan",
+    "city": {
+      "id": 1,
+      "name": "Bandung",
+      "provinceId": 1,
+      "province": {
+        "id": 1,
+        "name": "Jawa Barat"
+      }
+    },
+    "location": "Jalan Jenderat Gatot Subroto No. 83 Malabar, Lengkong, Lengkong, Bandung, Jawa Barat, Indonesia, 40262",
+    "imageUri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005852-04b8f8b8369b52c13c7d36e8dcb35417.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+    "rating": 8.8,
+    "numberOfReview": 4285,
+    "price": 771375,
+    "facilities": [
+      "AC",
+      "Restoran",
+      "Kolam Renang",
+      "Parkir",
+      "Wifi",
+      "Resepsionis 24 Jam",
+      "Lift"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Best Western Premier The Hive",
+    "city": {
+      "id": 2,
+      "name": "Jakarta Timur",
+      "provinceId": 2,
+      "province": {
+        "id": 2,
+        "name": "Daerah Khusus Ibukota Jakarta"
+      }
+    },
+    "location": "Jl. DI Panjaitan Kav. 3 - 4, Cawang, Kramat Jati, Jakarta, Indonesia, 13340",
+    "imageUri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000317-1024x724-FIT_AND_TRIM-13100ca291f56d00920c38037ddc8f47.png?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+    "rating": 8.4,
+    "numberOfReview": 9596,
+    "price": 450000,
+    "facilities": [
+      "AC",
+      "Restoran",
+      "Kolam Renang",
+      "Parkir",
+      "Wifi",
+      "Resepsionis 24 Jam",
+      "Lift"
+    ]
+  },
+  {
     "id": 1,
     "name": "The Suites Metro Apartment Bandung by Putri",
     "city": {
@@ -19,63 +152,6 @@
     "facilities": ["AC", "Restoran", "Kolam Renang", "Parkir", "Wifi"]
   },
   {
-    "id": 2,
-    "name": "The Trans Luxury Hotel",
-    "city": {
-      "id": 1,
-      "name": "Bandung",
-      "provinceId": 1,
-      "province": {
-        "id": 1,
-        "name": "Jawa Barat"
-      }
-    },
-    "location": "Jl. Gatot Subroto No. 289, Buahbatu, Bandung, Jawa Barat, Indonesia, 40273",
-    "imageUri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10002404-f2ae40544c03ba073c23b46c959e9e31.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
-    "rating": 9.0,
-    "numberOfReview": 5804,
-    "price": 1322500,
-    "facilities": ["AC", "Restoran", "Kolam Renang", "Parkir", "Wifi", "Resepsionis 24 Jam","Lift"]
-  },
-  {
-    "id": 3,
-    "name": "The Papandayan",
-    "city": {
-      "id": 1,
-      "name": "Bandung",
-      "provinceId": 1,
-      "province": {
-        "id": 1,
-        "name": "Jawa Barat"
-      }
-    },
-    "location": "Jalan Jenderat Gatot Subroto No. 83 Malabar, Lengkong, Lengkong, Bandung, Jawa Barat, Indonesia, 40262",
-    "imageUri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005852-04b8f8b8369b52c13c7d36e8dcb35417.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
-    "rating": 8.8,
-    "numberOfReview": 4285,
-    "price": 771375,
-    "facilities": ["AC", "Restoran", "Kolam Renang", "Parkir", "Wifi", "Resepsionis 24 Jam","Lift"]
-  },
-  {
-    "id": 4,
-    "name": "Best Western Premier The Hive",
-    "city": {
-      "id": 2,
-      "name": "Jakarta Timur",
-      "provinceId": 2,
-      "province": {
-        "id": 2,
-        "name": "Daerah Khusus Ibukota Jakarta"
-      }
-    },
-    "location": "Jl. DI Panjaitan Kav. 3 - 4, Cawang, Kramat Jati, Jakarta, Indonesia, 13340",
-    "imageUri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000317-1024x724-FIT_AND_TRIM-13100ca291f56d00920c38037ddc8f47.png?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
-    "rating": 8.4,
-    "numberOfReview": 9596,
-    "price": 450000,
-    "facilities": ["AC", "Restoran", "Kolam Renang", "Parkir", "Wifi", "Resepsionis 24 Jam","Lift"]
-  },
-  {
     "id": 5,
     "name": "Hotel Indonesia Kempinski Jakarta",
     "city": {
@@ -92,7 +168,15 @@
     "rating": 8.9,
     "numberOfReview": 3625,
     "price": 1996500,
-    "facilities": ["AC", "Restoran", "Kolam Renang", "Parkir", "Wifi", "Resepsionis 24 Jam","Lift"]
+    "facilities": [
+      "AC",
+      "Restoran",
+      "Kolam Renang",
+      "Parkir",
+      "Wifi",
+      "Resepsionis 24 Jam",
+      "Lift"
+    ]
   },
   {
     "id": 6,
@@ -111,46 +195,17 @@
     "rating": 8.8,
     "numberOfReview": 2542,
     "price": 1815000,
-    "facilities": ["AC", "Restoran", "Kolam Renang", "Parkir", "Wifi", "Resepsionis 24 Jam","Lift"]
+    "facilities": [
+      "AC",
+      "Restoran",
+      "Kolam Renang",
+      "Parkir",
+      "Wifi",
+      "Resepsionis 24 Jam",
+      "Lift"
+    ]
   },
-  {
-    "id": 7,
-    "name": "Wyndham Surabaya",
-    "city": {
-      "id": 5,
-      "name": "Surabaya",
-      "provinceId": 3,
-      "province": {
-        "id": 3,
-        "name": "Jawa Timur"
-      }
-    },
-    "location": "Jalan Basuki Rahmat 67-73 , Genteng, Surabaya, Jawa Timur, Indonesia, 60271",
-    "imageUri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10041546-1064x710-FIT_AND_TRIM-c2a53b818f713c318cfff76076714071.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
-    "rating": 8.7,
-    "numberOfReview": 5155,
-    "price": 672000,
-    "facilities": ["AC", "Restoran", "Kolam Renang", "Parkir", "Wifi", "Resepsionis 24 Jam"]
-  },
-  {
-    "id": 8,
-    "name": "Bumi Surabaya City Resort",
-    "city": {
-      "id": 5,
-      "name": "Surabaya",
-      "provinceId": 3,
-      "province": {
-        "id": 3,
-        "name": "Jawa Timur"
-      }
-    },
-    "location": "Jl. Jendral Basuki Rahmat No. 106 - 128 Surabaya, Genteng, Surabaya, Jawa Timur, Indonesia, 60271",
-    "imageUri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000090-1024x652-FIT_AND_TRIM-1b16b1ff0b14652fa52c44daa9acd268.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
-    "rating": 8.8,
-    "numberOfReview": 5810,
-    "price": 1032703,
-    "facilities": ["Restoran", "Kolam Renang", "Parkir", "Wifi", "Resepsionis 24 Jam","Lift"]
-  },
+
   {
     "id": 9,
     "name": "Hotel Ciputra World Surabaya managed by Swiss-Belhotel International",
@@ -168,6 +223,14 @@
     "rating": 8.7,
     "numberOfReview": 3693,
     "price": 780779,
-    "facilities": ["AC", "Restoran", "Kolam Renang", "Parkir", "Wifi", "Resepsionis 24 Jam","Lift"]
+    "facilities": [
+      "AC",
+      "Restoran",
+      "Kolam Renang",
+      "Parkir",
+      "Wifi",
+      "Resepsionis 24 Jam",
+      "Lift"
+    ]
   }
 ]

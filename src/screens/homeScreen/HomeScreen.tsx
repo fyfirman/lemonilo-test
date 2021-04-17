@@ -4,6 +4,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 import styled from 'styled-components/native';
 import hotels from '@assets/mock/hotels.json';
 import vacations from '@assets/mock/vacations.json';
+import useFilterData from '@utils/useFilterData';
 import AccountInfo from './components/AccountInfo';
 import Banner from './components/Banner';
 import HighlightSwiper from './components/HighlightSwiper';
@@ -39,6 +40,12 @@ const FilterContainer = styled.ScrollView`
 `;
 
 const HomeScreen = () => {
+  const hotelState = useFilterData(hotels, 'city.id');
+
+  const handleFilter = (cityId?: number) => {
+    hotelState.setFilter(cityId);
+  };
+
   return (
     <Container>
       <SearchBar onFocus={() => console.log('TODO : to search screen')} />
@@ -58,17 +65,17 @@ const HomeScreen = () => {
             <Heading>Hotels</Heading>
             <Description>Best hotel pick to rest yourself</Description>
             <FilterContainer horizontal showsHorizontalScrollIndicator={false}>
-              <FilterButton onPress={() => console.log('filter pressed')} title="All" active />
-              <FilterButton onPress={() => console.log('filter pressed')} title="Bandung" />
-              <FilterButton onPress={() => console.log('filter pressed')} title="Surabaya" />
-              <FilterButton onPress={() => console.log('filter pressed')} title="Jakarta Pusat" />
-              <FilterButton onPress={() => console.log('filter pressed')} title="Jakarta Timur" />
-              <FilterButton onPress={() => console.log('filter pressed')} title="Jakarta Selatan" />
+              <FilterButton onPress={() => handleFilter()} title="All" active />
+              <FilterButton onPress={() => handleFilter(1)} title="Bandung" />
+              <FilterButton onPress={() => handleFilter(5)} title="Surabaya" />
+              <FilterButton onPress={() => handleFilter(3)} title="Jakarta Pusat" />
+              <FilterButton onPress={() => handleFilter(2)} title="Jakarta Timur" />
+              <FilterButton onPress={() => handleFilter(4)} title="Jakarta Selatan" />
             </FilterContainer>
             <HighlightSwiper
               heading="Vacation"
               description=""
-              data={hotels}
+              data={hotelState.data}
               onPress={(item) => console.log(`${item.name} pressed`)}
             />
           </Section>
