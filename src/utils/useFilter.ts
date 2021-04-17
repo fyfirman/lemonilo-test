@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const useFilter = (initialData: Array<any>, key: any) => {
+const useFilter = (initialData: Array<any> = [], key: any) => {
   const [data, setData] = useState(initialData);
 
   const [filter, setFilter] = useState(null);
@@ -11,7 +11,7 @@ const useFilter = (initialData: Array<any>, key: any) => {
     }
   }, [filter]);
 
-  return [data, setFilter];
+  return { data, setFilter };
 };
 
 export default useFilter;
