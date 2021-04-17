@@ -1,9 +1,9 @@
-import ILocation from './location';
+import ICity from './city';
 
 export default interface IHotel {
   id: number;
   name: string;
-  location: ILocation;
+  location: ICity;
   imageUri: string;
   rating: number;
   description: string;
