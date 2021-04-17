@@ -25,13 +25,18 @@ const FilterableSwiper = ({ data, filterOptions, filterBy, onPress }: Filterable
 
   const renderFilterButtons = () =>
     filterOptions.map((value, index) => (
-      <FilterButton key={index} onPress={() => handleFilter(value.key)} title={value.label} />
+      <FilterButton
+        key={index}
+        onPress={() => handleFilter(value.key)}
+        title={value.label}
+        active={filterableState.filter === value.key}
+      />
     ));
 
   return (
     <>
       <FilterContainer horizontal showsHorizontalScrollIndicator={false}>
-        <FilterButton onPress={() => handleFilter()} title="All" active />
+        <FilterButton onPress={() => handleFilter()} title="All" active={!filterableState.filter} />
         {renderFilterButtons()}
       </FilterContainer>
       <HighlightSwiper
