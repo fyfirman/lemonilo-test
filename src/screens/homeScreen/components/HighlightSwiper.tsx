@@ -1,5 +1,4 @@
 import React from 'react';
-import { ScrollView } from 'react-native-gesture-handler';
 import styled from 'styled-components/native';
 import HighlightItem, { HighlightItemData } from './HighlightItem';
 
@@ -7,12 +6,30 @@ const Container = styled.View`
   padding: ${({ theme }) => theme.spacing(1)}px 0;
 `;
 
+const Heading = styled.Text`
+  font-size: 20px;
+  font-weight: bold;
+  color: ${({ theme }) => theme.palette.text.primary};
+`;
+
+const Description = styled.Text`
+  color: ${({ theme }) => theme.palette.text.secondary};
+`;
+
+const ItemContainer = styled.ScrollView`
+  margin-top: ${({ theme }) => theme.spacing(1)}px;
+`;
+
 interface HighlightSwiperProps {
+  heading: string;
+  description: string;
   data: HighlightItemData[];
   onPress: (value: HighlightItemData) => any;
 }
 
-const HighlightSwiper = ({ data, onPress }: HighlightSwiperProps) => {
+const HighlightSwiper = (props: HighlightSwiperProps) => {
+  const { heading, description, data, onPress } = props;
+
   const handlePress = (value: HighlightItemData) => onPress(value);
 
   const renderItem = () =>
@@ -29,9 +46,11 @@ const HighlightSwiper = ({ data, onPress }: HighlightSwiperProps) => {
 
   return (
     <Container>
-      <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+      <Heading>{heading}</Heading>
+      <Description>{description}</Description>
+      <ItemContainer horizontal showsHorizontalScrollIndicator={false}>
         {renderItem()}
-      </ScrollView>
+      </ItemContainer>
     </Container>
   );
 };

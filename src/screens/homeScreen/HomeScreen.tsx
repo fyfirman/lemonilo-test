@@ -32,8 +32,18 @@ const HomeScreen = () => {
             imageUri="https://via.placeholder.com/350x150"
             onPress={() => console.log('Banner pressed')}
           />
-          <HighlightSwiper data={hotels} onPress={(item) => console.log(`${item.name} pressed`)} />
-          <HighlightSwiper data={vacations.attraction} onPress={(item) => console.log(`${item.name} pressed`)} />
+          <HighlightSwiper
+            heading="Hotels"
+            description="Best hotel pick to rest yourself"
+            data={hotels}
+            onPress={(item) => console.log(`${item.name} pressed`)}
+          />
+          <HighlightSwiper
+            heading="Vacation"
+            description="Best vacation to refresh your mind"
+            data={vacations.attraction}
+            onPress={(item) => console.log(`${item.name} pressed`)}
+          />
         </Content>
       </ScrollView>
     </Container>

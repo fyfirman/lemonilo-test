@@ -6,6 +6,7 @@ const Container = styled.View`
 `;
 
 const Title = styled.Text`
+  font-weight: bold;
   font-size: 20px;
 `;
 
