@@ -14,6 +14,20 @@ const Container = styled.View`
   background-color: ${({ theme }) => theme.palette.background.lightGrey};
 `;
 
+const HighlightContainer = styled.View`
+  padding: ${({ theme }) => theme.spacing(1)}px 0;
+`;
+
+const Heading = styled.Text`
+  font-size: 20px;
+  font-weight: bold;
+  color: ${({ theme }) => theme.palette.text.primary};
+`;
+
+const Description = styled.Text`
+  color: ${({ theme }) => theme.palette.text.secondary};
+`;
+
 const Content = styled.View`
   padding: ${({ theme }) => theme.spacing(1)}px ${({ theme }) => theme.spacing(2)}px;
 `;
@@ -32,18 +46,26 @@ const HomeScreen = () => {
             imageUri="https://via.placeholder.com/350x150"
             onPress={() => console.log('Banner pressed')}
           />
-          <HighlightSwiper
-            heading="Hotels"
-            description="Best hotel pick to rest yourself"
-            data={hotels}
-            onPress={(item) => console.log(`${item.name} pressed`)}
-          />
-          <HighlightSwiper
-            heading="Vacation"
-            description="Best vacation to refresh your mind"
-            data={vacations.attraction}
-            onPress={(item) => console.log(`${item.name} pressed`)}
-          />
+          <HighlightContainer>
+            <Heading>Hotels</Heading>
+            <Description>Best hotel pick to rest yourself</Description>
+            <HighlightSwiper
+              heading="Vacation"
+              description=""
+              data={hotels}
+              onPress={(item) => console.log(`${item.name} pressed`)}
+            />
+          </HighlightContainer>
+          <HighlightContainer>
+            <Heading>Vacation</Heading>
+            <Description>Best vacation to refresh your mind</Description>
+            <HighlightSwiper
+              heading="Vacation"
+              description=""
+              data={vacations.attraction}
+              onPress={(item) => console.log(`${item.name} pressed`)}
+            />
+          </HighlightContainer>
         </Content>
       </ScrollView>
     </Container>
