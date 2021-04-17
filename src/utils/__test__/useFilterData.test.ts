@@ -1,5 +1,5 @@
 import { act, renderHook } from '@testing-library/react-hooks';
-import useFilter from '@utils/useFilter';
+import useFilterData from '@utils/useFilterData';
 
 const initialData = [
   {
@@ -26,7 +26,7 @@ const initialData = [
 ];
 
 it('should use filter', () => {
-  const { result } = renderHook(() => useFilter(initialData, 'subAttribute.id'));
+  const { result } = renderHook(() => useFilterData(initialData, 'subAttribute.id'));
   const { data, setFilter, filter } = result.current;
 
   expect(data).toBe(initialData);
@@ -35,7 +35,7 @@ it('should use filter', () => {
 });
 
 it('should filter data depends on category', () => {
-  const { result } = renderHook(() => useFilter(initialData, 'category'));
+  const { result } = renderHook(() => useFilterData(initialData, 'category'));
 
   act(() => {
     result.current.setFilter('a');
