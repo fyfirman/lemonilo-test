@@ -8,6 +8,7 @@ import AccountInfo from './components/AccountInfo';
 import Banner from './components/Banner';
 import HighlightSwiper from './components/HighlightSwiper';
 import Menu from './components/Menu';
+import FilterButton from './components/FilterButton';
 
 const Container = styled.View`
   flex: 1;
@@ -33,6 +34,10 @@ const Content = styled.View`
   padding: ${({ theme }) => theme.spacing(1)}px ${({ theme }) => theme.spacing(2)}px;
 `;
 
+const FilterContainer = styled.ScrollView`
+  margin-bottom: ${({ theme }) => theme.spacing(1)}px;
+`;
+
 const HomeScreen = () => {
   return (
     <Container>
@@ -52,6 +57,14 @@ const HomeScreen = () => {
           <Section>
             <Heading>Hotels</Heading>
             <Description>Best hotel pick to rest yourself</Description>
+            <FilterContainer horizontal showsHorizontalScrollIndicator={false}>
+              <FilterButton onPress={() => console.log('filter pressed')} title="All" active />
+              <FilterButton onPress={() => console.log('filter pressed')} title="Bandung" />
+              <FilterButton onPress={() => console.log('filter pressed')} title="Surabaya" />
+              <FilterButton onPress={() => console.log('filter pressed')} title="Jakarta Pusat" />
+              <FilterButton onPress={() => console.log('filter pressed')} title="Jakarta Timur" />
+              <FilterButton onPress={() => console.log('filter pressed')} title="Jakarta Selatan" />
+            </FilterContainer>
             <HighlightSwiper
               heading="Vacation"
               description=""
@@ -62,6 +75,11 @@ const HomeScreen = () => {
           <Section>
             <Heading>Vacation</Heading>
             <Description>Best vacation to refresh your mind</Description>
+            <FilterContainer horizontal showsHorizontalScrollIndicator={false}>
+              <FilterButton onPress={() => console.log('filter pressed')} title="Test" active />
+              <FilterButton onPress={() => console.log('filter pressed')} title="Test" />
+              <FilterButton onPress={() => console.log('filter pressed')} title="Test" />
+            </FilterContainer>
             <HighlightSwiper
               heading="Vacation"
               description=""
