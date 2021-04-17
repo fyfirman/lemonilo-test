@@ -3,9 +3,11 @@ import ICity from './city';
 export default interface IAttraction {
   id: number;
   name: string;
-  location: ICity;
+  city: ICity;
+  location: string;
   imageUri: string;
   rating: number;
-  description: string;
+  numberOfReview: number;
+  highlight: string[];
   price: number;
 }
