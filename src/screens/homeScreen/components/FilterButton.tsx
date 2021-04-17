@@ -1,9 +1,8 @@
+import myTheme from '@theme/theme';
 import React from 'react';
-import { TouchableNativeFeedback } from 'react-native';
 import styled from 'styled-components/native';
 
-const Container = styled.View<{ active: boolean }>`
-  padding: ${({ theme }) => theme.spacing(1)}px ${({ theme }) => theme.spacing(2)}px;
+const Container = styled.Pressable<{ active: boolean }>`
   background-color: ${({ theme, active }) =>
     (active ? theme.palette.primary.main : theme.palette.background.grey)};
   margin-right: ${({ theme }) => theme.spacing(1)}px;
@@ -11,6 +10,7 @@ const Container = styled.View<{ active: boolean }>`
 `;
 
 const Label = styled.Text<{ active: boolean }>`
+  padding: ${({ theme }) => theme.spacing(1)}px ${({ theme }) => theme.spacing(2)}px;
   color: ${({ theme, active }) => (active ? '#fff' : theme.palette.primary.main)};
   font-weight: bold;
 `;
@@ -23,10 +23,13 @@ interface FilterButtonProps {
 
 const FilterButton = ({ title, onPress, active = false }: FilterButtonProps) => {
   return (
-    <Container active={active}>
-      <TouchableNativeFeedback onPress={onPress} disabled={active}>
-        <Label active={active}>{title}</Label>
-      </TouchableNativeFeedback>
+    <Container
+      active={active}
+      onPress={onPress}
+      disabled={active}
+      android_ripple={{ color: myTheme.palette.primary.light, radius: 50 }}
+    >
+      <Label active={active}>{title}</Label>
     </Container>
   );
 };
