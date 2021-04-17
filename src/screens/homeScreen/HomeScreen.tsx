@@ -59,7 +59,8 @@ const HomeScreen = () => {
             <Heading>Hotels</Heading>
             <Description>Best hotel pick to rest yourself</Description>
             <FilterableSwiper
-              filterBy={[
+              filterBy="city.id"
+              filterOptions={[
                 { key: 1, label: 'Bandung' },
                 { key: 5, label: 'Surabaya' },
                 { key: 3, label: 'Jakarta Pusat' },

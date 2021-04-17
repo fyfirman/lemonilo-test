@@ -7,7 +7,8 @@ import HighlightSwiper from './HighlightSwiper';
 
 interface FilterableSwiperProps {
   data: HighlightItemData[];
-  filterBy: { key: any; label: string }[];
+  filterBy: string;
+  filterOptions: { key: any; label: string }[];
   onPress: (item: HighlightItemData) => any;
 }
 
@@ -15,15 +16,15 @@ const FilterContainer = styled.ScrollView`
   margin-bottom: ${({ theme }) => theme.spacing(1)}px;
 `;
 
-const FilterableSwiper = ({ data, filterBy, onPress }: FilterableSwiperProps) => {
-  const filterableState = useFilterData(data, 'city.id');
+const FilterableSwiper = ({ data, filterOptions, filterBy, onPress }: FilterableSwiperProps) => {
+  const filterableState = useFilterData(data, filterBy);
 
   const handleFilter = (key?: number) => {
     filterableState.setFilter(key);
   };
 
   const renderFilterButtons = () =>
-    filterBy.map((value, index) => (
+    filterOptions.map((value, index) => (
       <FilterButton key={index} onPress={() => handleFilter(value.key)} title={value.label} />
     ));
 
