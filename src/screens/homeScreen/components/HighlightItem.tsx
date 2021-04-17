@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components/native';
 
-const Container = styled.Pressable`
+const Container = styled.TouchableOpacity`
   width: 150px;
   margin-right: ${({ theme }) => theme.spacing(2)}px;
 `;
