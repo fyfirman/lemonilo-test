@@ -8,6 +8,7 @@ module.exports = {
           "./src"
         ],
         "alias": {
+          "@test": "./src/__test__",
           "@assets": "./src/assets",
           "@constants": "./src/constants",
           "@components": "./src/components",
