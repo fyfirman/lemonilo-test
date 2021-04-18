@@ -24,15 +24,17 @@ const Heading = styled.Text`
   font-size: 20px;
   font-weight: bold;
   color: ${({ theme }) => theme.palette.text.primary};
+  padding-left: ${({ theme }) => theme.spacing(2)}px;
 `;
 
 const Description = styled.Text`
   color: ${({ theme }) => theme.palette.text.secondary};
   margin-bottom: ${({ theme }) => theme.spacing(1)}px;
+  padding-left: ${({ theme }) => theme.spacing(2)}px;
 `;
 
 const Content = styled.View`
-  padding: ${({ theme }) => theme.spacing(1)}px ${({ theme }) => theme.spacing(2)}px;
+  padding: ${({ theme }) => theme.spacing(1)}px 0;
 `;
 
 const HomeScreen = () => {
@@ -73,7 +75,7 @@ const HomeScreen = () => {
               filterBy="category"
               filterOptions={[
                 { key: 'attraction', label: 'Attraction' },
-                { key: 'playground', label: 'Hiburan' },
+                { key: 'playground', label: 'Playground' },
                 { key: 'beauty', label: 'Beauty & Spa' },
               ]}
               data={vacations}

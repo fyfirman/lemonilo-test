@@ -14,6 +14,7 @@ interface FilterableSwiperProps {
 
 const FilterContainer = styled.ScrollView`
   margin-bottom: ${({ theme }) => theme.spacing(1)}px;
+  padding-left: ${({ theme }) => theme.spacing(2)}px;
 `;
 
 const FilterableSwiper = ({ data, filterOptions, filterBy, onPress }: FilterableSwiperProps) => {

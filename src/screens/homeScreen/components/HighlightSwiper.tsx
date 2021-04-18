@@ -2,7 +2,9 @@ import React from 'react';
 import styled from 'styled-components/native';
 import HighlightItem, { HighlightItemData } from './HighlightItem';
 
-const ItemContainer = styled.ScrollView``;
+const ItemContainer = styled.ScrollView`
+  padding-left: ${({ theme }) => theme.spacing(2)}px;
+`;
 
 interface HighlightSwiperProps {
   heading: string;
