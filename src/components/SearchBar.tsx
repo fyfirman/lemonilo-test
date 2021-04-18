@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components/native';
 
-const Container = styled.View`
+const Container = styled.Pressable`
   padding: ${({ theme }) => theme.spacing(1)}px ${({ theme }) => theme.spacing(2)}px;
   background-color: ${({ theme }) => theme.palette.primary.main};
 `;
@@ -19,14 +19,14 @@ const SearchInput = styled.TextInput`
 `;
 
 interface SearchBarProps {
-  onFocus?: () => any;
+  onPress?: () => any;
 }
 
-const SearchBar = ({ onFocus }: SearchBarProps) => {
+const SearchBar = ({ onPress }: SearchBarProps) => {
   return (
-    <Container>
+    <Container onPress={onPress}>
       <InputContainer>
-        <SearchInput placeholder="Search items, destinations..." onFocus={onFocus} />
+        <SearchInput placeholder="Search items, destinations..." editable={false} />
       </InputContainer>
     </Container>
   );
