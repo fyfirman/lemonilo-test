@@ -26,7 +26,7 @@ const menuData: IMenu[] = [
   { label: 'Trains', iconName: 'train', color: '#E75723' },
   { label: 'Buses & Shuttles', iconName: 'bus', color: '#FAA202' },
   { label: 'Cars', iconName: 'car', color: '#21C759' },
-  { label: 'Motor- cycle', iconName: 'home', color: '#0D7377' },
+  { label: 'Vacation', iconName: 'map', color: '#0D7377' },
   { label: 'Finance', iconName: 'cash', color: '#014165' },
   { label: 'All Products', iconName: 'grid' },
 ];
