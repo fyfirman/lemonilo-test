@@ -1,3 +1,4 @@
+import format from '@utils/currencyFormatting';
 import React from 'react';
 import styled from 'styled-components/native';
 
@@ -37,7 +38,7 @@ const HighlightItem = (props: HighlightItemProps) => {
     <Container onPress={onPress}>
       <Photo source={{ uri: imageUri }} resizeMode="cover" />
       <Name>{name}</Name>
-      <Price>{`Rp ${price}`}</Price>
+      <Price>{`Rp ${format(price)}`}</Price>
     </Container>
   );
 };
