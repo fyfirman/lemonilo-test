@@ -37,7 +37,7 @@ const HomeScreen = () => {
   return (
     <Container>
       <SearchBar onFocus={() => console.log('TODO : to search screen')} />
-      <ScrollView>
+      <ScrollView showsVerticalScrollIndicator={false}>
         <AccountInfo />
         <Content>
           <Menu />
