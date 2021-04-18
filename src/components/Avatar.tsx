@@ -10,6 +10,7 @@ const Avatar = styled.Image<AvatarProps>`
   border-radius: 100px;
   width: ${(props) => props.size ?? DEFAULT_SIZE}px;
   height: ${(props) => props.size ?? DEFAULT_SIZE}px;
+  background-color: ${({ theme }) => theme.palette.primary.main};
 `;
 
 export default Avatar;

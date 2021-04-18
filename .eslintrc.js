@@ -29,6 +29,7 @@ module.exports = {
         'arrow-body-style': 'off',
         'no-undef': 'off',
         'no-plusplus': 'off',
+        'global-require': 'off',
         'implicit-arrow-linebreak': 'off',
         'no-unused-vars': 'off',
         'prefer-template': 'error',

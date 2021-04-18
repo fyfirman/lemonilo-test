@@ -26,11 +26,7 @@ const AccountInfo = () => {
   return (
     <Container>
       <InfoContainer>
-        <Avatar
-          source={{
-            uri: 'https://reactnative.dev/img/tiny_logo.png',
-          }}
-        />
+        <Avatar source={require('@assets/images/avataaars.png')} />
         <NameText>Firmansyah Yanuar</NameText>
       </InfoContainer>
       <InfoContainer>
