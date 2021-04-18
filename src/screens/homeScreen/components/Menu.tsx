@@ -19,16 +19,16 @@ interface IMenu {
 }
 
 const menuData: IMenu[] = [
-  { label: 'Flight', iconName: 'home', color: '#2FC6F3' },
-  { label: 'Hotels', iconName: 'home', color: '#1D4F80' },
-  { label: 'Flight + Hotel', iconName: 'home', color: '#8C1981' },
-  { label: 'Eats', iconName: 'home', color: '#FD6560' },
-  { label: 'Trains', iconName: 'home', color: '#E75723' },
-  { label: 'Buses & Shuttles', iconName: 'home', color: '#FAA202' },
-  { label: 'Cars', iconName: 'home', color: '#21C759' },
+  { label: 'Flight', iconName: 'airplane', color: '#2FC6F3' },
+  { label: 'Hotels', iconName: 'bed', color: '#1D4F80' },
+  { label: 'Flight + Hotel', iconName: 'business', color: '#8C1981' },
+  { label: 'Eats', iconName: 'restaurant', color: '#FD6560' },
+  { label: 'Trains', iconName: 'train', color: '#E75723' },
+  { label: 'Buses & Shuttles', iconName: 'bus', color: '#FAA202' },
+  { label: 'Cars', iconName: 'car', color: '#21C759' },
   { label: 'Motor- cycle', iconName: 'home', color: '#0D7377' },
-  { label: 'Finance', iconName: 'home', color: '#014165' },
-  { label: 'All Products', iconName: 'home' },
+  { label: 'Finance', iconName: 'cash', color: '#014165' },
+  { label: 'All Products', iconName: 'grid' },
 ];
 
 const Menu = () => {

@@ -38,7 +38,11 @@ const MenuItem = (props: MenuItemProps) => {
   return (
     <Container width={width} onPress={onPress}>
       <IconContainer backgroundColor={backgroundColor ?? myTheme.palette.menu.default}>
-        <Icon size={32} name={iconName} color="#FFFFFF" />
+        <Icon
+          size={32}
+          name={iconName}
+          color={backgroundColor ? '#FFFFFF' : '#555'}
+        />
       </IconContainer>
       <Label>{label}</Label>
     </Container>
