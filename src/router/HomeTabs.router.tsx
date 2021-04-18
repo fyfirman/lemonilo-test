@@ -24,6 +24,10 @@ const HomeTabsRouter = () => {
     <Tab.Navigator
       tabBarOptions={{
         activeTintColor: theme.palette.primary.main,
+        tabStyle: {
+          paddingTop: 6,
+          paddingBottom: 6,
+        },
       }}
     >
       <Tab.Screen
