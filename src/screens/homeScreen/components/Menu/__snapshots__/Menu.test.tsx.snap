@@ -1,0 +1,789 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match with snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "paddingBottom": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "width": 45,
+        }
+      }
+    >
+      <View
+        backgroundColor="#2FC6F3"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#2FC6F3",
+              "borderRadius": 1000,
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 32,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+              "fontSize": 11,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Flight
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "paddingBottom": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "width": 45,
+        }
+      }
+    >
+      <View
+        backgroundColor="#1D4F80"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#1D4F80",
+              "borderRadius": 1000,
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 32,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+              "fontSize": 11,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Hotels
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "paddingBottom": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "width": 45,
+        }
+      }
+    >
+      <View
+        backgroundColor="#8C1981"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#8C1981",
+              "borderRadius": 1000,
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 32,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+              "fontSize": 11,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Flight + Hotel
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "paddingBottom": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "width": 45,
+        }
+      }
+    >
+      <View
+        backgroundColor="#FD6560"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#FD6560",
+              "borderRadius": 1000,
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 32,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+              "fontSize": 11,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Eats
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "paddingBottom": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "width": 45,
+        }
+      }
+    >
+      <View
+        backgroundColor="#E75723"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#E75723",
+              "borderRadius": 1000,
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 32,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+              "fontSize": 11,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Trains
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "paddingBottom": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "width": 45,
+        }
+      }
+    >
+      <View
+        backgroundColor="#FAA202"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#FAA202",
+              "borderRadius": 1000,
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 32,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+              "fontSize": 11,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Buses & Shuttles
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "paddingBottom": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "width": 45,
+        }
+      }
+    >
+      <View
+        backgroundColor="#21C759"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#21C759",
+              "borderRadius": 1000,
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 32,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+              "fontSize": 11,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Cars
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "paddingBottom": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "width": 45,
+        }
+      }
+    >
+      <View
+        backgroundColor="#0D7377"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#0D7377",
+              "borderRadius": 1000,
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 32,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+              "fontSize": 11,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Vacation
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "paddingBottom": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "width": 45,
+        }
+      }
+    >
+      <View
+        backgroundColor="#014165"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#014165",
+              "borderRadius": 1000,
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 32,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+              "fontSize": 11,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Finance
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "marginBottom": 8,
+          "opacity": 1,
+          "paddingBottom": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "width": 45,
+        }
+      }
+    >
+      <View
+        backgroundColor="#F2F3EE"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#F2F3EE",
+              "borderRadius": 1000,
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#555",
+                "fontSize": 32,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+              "fontSize": 11,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        All Products
+      </Text>
+    </View>
+  </View>
+</View>
+`;

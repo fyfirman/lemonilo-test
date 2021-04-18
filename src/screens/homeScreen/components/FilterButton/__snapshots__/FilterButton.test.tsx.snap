@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match with snapshot 1`] = `
+<View
+  accessible={true}
+  active={false}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5F9F8",
+        "borderRadius": 4,
+        "marginRight": 8,
+      },
+    ]
+  }
+>
+  <Text
+    active={false}
+    style={
+      Array [
+        Object {
+          "color": "#19A0E0",
+          "fontWeight": "bold",
+          "paddingBottom": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+        },
+      ]
+    }
+  >
+    Button
+  </Text>
+</View>
+`;

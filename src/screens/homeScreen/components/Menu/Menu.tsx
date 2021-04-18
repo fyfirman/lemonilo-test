@@ -1,7 +1,7 @@
 import arrayToMatrix from '@utils/arrayToMatrix';
 import React from 'react';
 import styled from 'styled-components/native';
-import MenuItem from './MenuItem';
+import MenuItem from '../MenuItem/MenuItem';
 
 const Container = styled.View`
   padding: 0;

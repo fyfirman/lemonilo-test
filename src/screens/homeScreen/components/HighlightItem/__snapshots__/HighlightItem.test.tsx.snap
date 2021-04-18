@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match with snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "marginRight": 16,
+      "opacity": 1,
+      "width": 150,
+    }
+  }
+>
+  <Image
+    resizeMode="cover"
+    source={
+      Object {
+        "uri": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001871272969/Joy%2520N%2520Fun%2520Festival%2520City%2520Link-61055bfc-c44e-4588-a66a-b99d86b7ba4f.jpeg?_src=imagekit&tr=c-at_max,h-1280,q-60,w-720",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "aspectRatio": 1,
+          "borderRadius": 4,
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(0,0,0,0.8)",
+        },
+      ]
+    }
+  >
+    Joy N Fun Festival City Link
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(0,0,0,0.5)",
+        },
+      ]
+    }
+  >
+    Rp 48.500
+  </Text>
+</View>
+`;

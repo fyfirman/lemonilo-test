@@ -1,0 +1,531 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match with snapshot 1`] = `
+<RCTScrollView
+  horizontal={true}
+  showsHorizontalScrollIndicator={false}
+  style={
+    Array [
+      Object {
+        "paddingLeft": 16,
+      },
+    ]
+  }
+>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 16,
+          "opacity": 1,
+          "width": 150,
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10041546-1064x710-FIT_AND_TRIM-c2a53b818f713c318cfff76076714071.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+              "borderRadius": 4,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.8)",
+            },
+          ]
+        }
+      >
+        Wyndham Surabaya
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+            },
+          ]
+        }
+      >
+        Rp 672.000
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 16,
+          "opacity": 1,
+          "width": 150,
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10002404-f2ae40544c03ba073c23b46c959e9e31.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+              "borderRadius": 4,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.8)",
+            },
+          ]
+        }
+      >
+        The Trans Luxury Hotel
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+            },
+          ]
+        }
+      >
+        Rp 1.322.500
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 16,
+          "opacity": 1,
+          "width": 150,
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000090-1024x652-FIT_AND_TRIM-1b16b1ff0b14652fa52c44daa9acd268.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+              "borderRadius": 4,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.8)",
+            },
+          ]
+        }
+      >
+        Bumi Surabaya City Resort
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+            },
+          ]
+        }
+      >
+        Rp 1.032.703
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 16,
+          "opacity": 1,
+          "width": 150,
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005852-04b8f8b8369b52c13c7d36e8dcb35417.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+              "borderRadius": 4,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.8)",
+            },
+          ]
+        }
+      >
+        The Papandayan
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+            },
+          ]
+        }
+      >
+        Rp 771.375
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 16,
+          "opacity": 1,
+          "width": 150,
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000317-1024x724-FIT_AND_TRIM-13100ca291f56d00920c38037ddc8f47.png?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+              "borderRadius": 4,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.8)",
+            },
+          ]
+        }
+      >
+        Best Western Premier The Hive
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+            },
+          ]
+        }
+      >
+        Rp 450.000
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 16,
+          "opacity": 1,
+          "width": 150,
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10043057-11cd3538e5768ded5c6e07cf0c491764.png?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+              "borderRadius": 4,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.8)",
+            },
+          ]
+        }
+      >
+        The Suites Metro Apartment Bandung by Putri
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+            },
+          ]
+        }
+      >
+        Rp 175.000
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 16,
+          "opacity": 1,
+          "width": 150,
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020708-8ff9e9be39a6504109b631bd6d7e20a8.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+              "borderRadius": 4,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.8)",
+            },
+          ]
+        }
+      >
+        Hotel Indonesia Kempinski Jakarta
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+            },
+          ]
+        }
+      >
+        Rp 1.996.500
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 16,
+          "opacity": 1,
+          "width": 150,
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10022569-76dd1103e0433422979302f934b65ef0.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+              "borderRadius": 4,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.8)",
+            },
+          ]
+        }
+      >
+        The Ritz-Carlton Jakarta, Mega Kuningan
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+            },
+          ]
+        }
+      >
+        Rp 1.815.000
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 16,
+          "opacity": 1,
+          "width": 150,
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10001353-1000x667-FIT_AND_TRIM-0f7d6cd0450e6a4740334b045e01fbac.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+              "borderRadius": 4,
+            },
+          ]
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.8)",
+            },
+          ]
+        }
+      >
+        Hotel Ciputra World Surabaya managed by Swiss-Belhotel International
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0,0,0,0.5)",
+            },
+          ]
+        }
+      >
+        Rp 780.779
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;

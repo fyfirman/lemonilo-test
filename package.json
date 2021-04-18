@@ -68,7 +68,7 @@
       "node"
     ],
     "transformIgnorePatterns": [
-      "node_modules/(?!(@react-native|react-native|react-native-splash-screen)/)"
+      "node_modules/(?!(@react-native|react-native|react-native-splash-screen|react-native-ionicons)/)"
     ],
     "collectCoverageFrom": [
       "src/**/{!(helpers),}.tsx"

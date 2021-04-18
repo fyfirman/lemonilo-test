@@ -1,14 +1,12 @@
 import React from 'react';
 import styled from 'styled-components/native';
-import HighlightItem, { HighlightItemData } from './HighlightItem';
+import HighlightItem, { HighlightItemData } from '../HighlightItem/HighlightItem';
 
 const ItemContainer = styled.ScrollView`
   padding-left: ${({ theme }) => theme.spacing(2)}px;
 `;
 
 interface HighlightSwiperProps {
-  heading: string;
-  description: string;
   data: HighlightItemData[];
   onPress: (value: HighlightItemData) => any;
 }

@@ -1,9 +1,9 @@
 import useFilterableState from '@utils/useFilterableState';
 import React from 'react';
 import styled from 'styled-components/native';
-import FilterButton from './FilterButton';
-import { HighlightItemData } from './HighlightItem';
-import HighlightSwiper from './HighlightSwiper';
+import FilterButton from '../FilterButton/FilterButton';
+import { HighlightItemData } from '../HighlightItem/HighlightItem';
+import HighlightSwiper from '../HighlightSwiper/HighlightSwiper';
 
 interface FilterableSwiperProps {
   data: HighlightItemData[];
