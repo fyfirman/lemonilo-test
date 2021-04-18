@@ -70,6 +70,9 @@
     "transformIgnorePatterns": [
       "node_modules/(?!(@react-native|react-native|react-native-splash-screen)/)"
     ],
+    "collectCoverageFrom": [
+      "src/**/{!(helpers),}.tsx"
+    ],
     "moduleNameMapper": {
       "@test/(.*)$": "<rootDir>/src/__test__/$1",
       "@assets/(.*)$": "<rootDir>/src/assets/$1",

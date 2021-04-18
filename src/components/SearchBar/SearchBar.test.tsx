@@ -1,12 +1,11 @@
 import React from 'react';
 import { renderWithTheme } from '../../__tests__/helpers';
-import Avatar from './Avatar';
+import SearchBar from './SearchBar';
 import 'jest-styled-components';
 
-const image = require('@assets/images/avataaars.png');
-
 test('should match with snapshot', () => {
-  const tree = renderWithTheme(<Avatar source={image} />);
+  const onPress = jest.fn();
+  const tree = renderWithTheme(<SearchBar onPress={onPress} />);
 
   expect(tree).toMatchSnapshot();
 });
