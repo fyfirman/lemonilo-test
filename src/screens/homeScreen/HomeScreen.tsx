@@ -5,6 +5,7 @@ import styled from 'styled-components/native';
 import hotels from '@assets/mock/hotels.json';
 import vacations from '@assets/mock/vacations.json';
 import { useNavigation } from '@react-navigation/native';
+import { Linking } from 'react-native';
 import AccountInfo from './components/AccountInfo';
 import Banner from './components/Banner';
 import Menu from './components/Menu';
@@ -47,7 +48,7 @@ const HomeScreen = () => {
           <Section>
             <Heading>Travelemon Deals!</Heading>
             <Description>Get discount up to 99% and special offers on various products</Description>
-            <Banner onPress={() => console.log('Banner pressed')} />
+            <Banner onPress={() => Linking.openURL('https://fyfirman.tech')} />
           </Section>
           <Section>
             <Heading>Hotels</Heading>
@@ -62,7 +63,7 @@ const HomeScreen = () => {
                 { key: 4, label: 'Jakarta Selatan' },
               ]}
               data={hotels}
-              onPress={(item) => console.log(`${item.name} pressed`)}
+              onPress={() => navigation.navigate('UnderConstruct')}
             />
           </Section>
           <Section>
@@ -76,7 +77,7 @@ const HomeScreen = () => {
                 { key: 'beauty', label: 'Beauty & Spa' },
               ]}
               data={vacations}
-              onPress={(item) => console.log(`${item.name} pressed`)}
+              onPress={() => navigation.navigate('UnderConstruct')}
             />
           </Section>
         </Content>
