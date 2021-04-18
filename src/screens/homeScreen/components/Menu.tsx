@@ -15,18 +15,19 @@ const MenuContainer = styled.View`
 interface IMenu {
   label: string;
   iconName: string;
+  color?: string;
 }
 
 const menuData: IMenu[] = [
-  { label: 'Flight', iconName: 'home' },
-  { label: 'Hotels', iconName: 'home' },
-  { label: 'Flight + Hotel', iconName: 'home' },
-  { label: 'Eats', iconName: 'home' },
-  { label: 'Trains', iconName: 'home' },
-  { label: 'Buses & Shuttles', iconName: 'home' },
-  { label: 'Cars', iconName: 'home' },
-  { label: 'Motor- cycle', iconName: 'home' },
-  { label: 'Finance', iconName: 'home' },
+  { label: 'Flight', iconName: 'home', color: '#2FC6F3' },
+  { label: 'Hotels', iconName: 'home', color: '#1D4F80' },
+  { label: 'Flight + Hotel', iconName: 'home', color: '#8C1981' },
+  { label: 'Eats', iconName: 'home', color: '#FD6560' },
+  { label: 'Trains', iconName: 'home', color: '#E75723' },
+  { label: 'Buses & Shuttles', iconName: 'home', color: '#FAA202' },
+  { label: 'Cars', iconName: 'home', color: '#21C759' },
+  { label: 'Motor- cycle', iconName: 'home', color: '#0D7377' },
+  { label: 'Finance', iconName: 'home', color: '#014165' },
   { label: 'All Products', iconName: 'home' },
 ];
 
@@ -34,11 +35,12 @@ const Menu = () => {
   const renderMenuItems = () =>
     arrayToMatrix(menuData, 5).map((row: IMenu[], rowIndex) => (
       <MenuContainer key={rowIndex}>
-        {row.map(({ label, iconName }, index) => (
+        {row.map(({ label, iconName, color }, index) => (
           <MenuItem
             key={index}
             label={label}
             iconName={iconName}
+            backgroundColor={color}
             width={45}
             onPress={() => console.log('TODO: go to menu screen')}
           />
