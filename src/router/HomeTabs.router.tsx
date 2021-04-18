@@ -3,7 +3,7 @@ import Icon from 'react-native-ionicons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from '@screens/homeScreen/HomeScreen';
 import theme from '@theme/theme';
-import UnderConstruct from '@components/UnderConstruct';
+import UnderConstruct from '@components/UnderConstruct/UnderConstruct';
 
 const Tab = createBottomTabNavigator();
 

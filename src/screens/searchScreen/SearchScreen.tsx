@@ -1,5 +1,5 @@
 import SearchBar from '@components/SearchBar/SearchBar';
-import UnderConstruct from '@components/UnderConstruct';
+import UnderConstruct from '@components/UnderConstruct/UnderConstruct';
 import React from 'react';
 
 import styled from 'styled-components/native';
