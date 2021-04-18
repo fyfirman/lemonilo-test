@@ -41,8 +41,6 @@ const FilterableSwiper = ({ data, filterOptions, filterBy, onPress }: Filterable
         {renderFilterButtons()}
       </FilterContainer>
       <HighlightSwiper
-        heading="Vacation"
-        description=""
         data={filterableState.data}
         onPress={onPress}
       />
