@@ -6,7 +6,7 @@ import hotels from '@assets/mock/hotels.json';
 import vacations from '@assets/mock/vacations.json';
 import { useNavigation } from '@react-navigation/native';
 import { Linking } from 'react-native';
-import AccountInfo from './components/AccountInfo';
+import AccountInfo from './components/AccountInfo/AccountInfo';
 import Banner from './components/Banner';
 import Menu from './components/Menu';
 import FilterableSwiper from './components/FilterableSwiper';
