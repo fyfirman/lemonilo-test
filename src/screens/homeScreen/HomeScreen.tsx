@@ -1,4 +1,4 @@
-import SearchBar from '@components/SearchBar';
+import SearchBar from '@components/SearchBar/SearchBar';
 import React from 'react';
 import { ScrollView } from 'react-native-gesture-handler';
 import styled from 'styled-components/native';

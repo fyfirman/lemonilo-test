@@ -1,4 +1,4 @@
-import SearchBar from '@components/SearchBar';
+import SearchBar from '@components/SearchBar/SearchBar';
 import UnderConstruct from '@components/UnderConstruct';
 import React from 'react';
 
