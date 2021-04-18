@@ -14,3 +14,7 @@ This project is made for the submission of Lemonilo SOLID test.
 | UI Library | Styled Components     |  5.2.3  |
 | Linter     | ESLint                | 7.24.0  |
 | Linter     | Prettier              |    -    |
+
+# Demo
+
+<img src="demo/travenilo-demo.gif" alt="Demo" height="700">
