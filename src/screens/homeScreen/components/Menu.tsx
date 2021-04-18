@@ -14,31 +14,31 @@ const MenuContainer = styled.View`
 
 interface IMenu {
   label: string;
-  imageUri: string;
+  iconName: string;
 }
 
-const menuData : IMenu[] = [
-  { label: 'Flight', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
-  { label: 'Hotels', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
-  { label: 'Flight + Hotel', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
-  { label: 'Eats', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
-  { label: 'Trains', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
-  { label: 'Buses & Shuttles', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
-  { label: 'Cars', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
-  { label: 'Motor- cycle', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
-  { label: 'Finance', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
-  { label: 'All Products', imageUri: 'https://reactnative.dev/img/tiny_logo.png' },
+const menuData: IMenu[] = [
+  { label: 'Flight', iconName: 'home' },
+  { label: 'Hotels', iconName: 'home' },
+  { label: 'Flight + Hotel', iconName: 'home' },
+  { label: 'Eats', iconName: 'home' },
+  { label: 'Trains', iconName: 'home' },
+  { label: 'Buses & Shuttles', iconName: 'home' },
+  { label: 'Cars', iconName: 'home' },
+  { label: 'Motor- cycle', iconName: 'home' },
+  { label: 'Finance', iconName: 'home' },
+  { label: 'All Products', iconName: 'home' },
 ];
 
 const Menu = () => {
   const renderMenuItems = () =>
     arrayToMatrix(menuData, 5).map((row: IMenu[], rowIndex) => (
       <MenuContainer key={rowIndex}>
-        {row.map(({ label, imageUri }, index) => (
+        {row.map(({ label, iconName }, index) => (
           <MenuItem
             key={index}
             label={label}
-            imageUri={imageUri}
+            iconName={iconName}
             width={45}
             onPress={() => console.log('TODO: go to menu screen')}
           />

@@ -1,7 +1,7 @@
-import Avatar from '@components/Avatar';
-import myTheme from '@theme/theme';
 import React from 'react';
 import styled from 'styled-components/native';
+import Icon from 'react-native-ionicons';
+import myTheme from '@theme/theme';
 
 const Container = styled.TouchableOpacity<{ width: number }>`
   padding: ${({ theme }) => theme.spacing(1)}px 0px;
@@ -14,7 +14,9 @@ const IconContainer = styled.View<{ backgroundColor: string }>`
   background-color: ${(props) => props.backgroundColor};
   padding: ${({ theme }) => theme.spacing(1)}px;
   justify-content: center;
+  align-items: center;
   border-radius: ${({ theme }) => theme.borderRadius.round}px;
+  aspect-ratio: 1;
 `;
 
 const Label = styled.Text`
@@ -25,18 +27,18 @@ const Label = styled.Text`
 
 interface MenuItemProps {
   label: string;
-  imageUri?: string;
+  iconName: string;
   backgroundColor?: string;
   onPress: () => any;
   width: number;
 }
 
 const MenuItem = (props: MenuItemProps) => {
-  const { label, imageUri, backgroundColor, width, onPress } = props;
+  const { label, iconName, backgroundColor, width, onPress } = props;
   return (
     <Container width={width} onPress={onPress}>
       <IconContainer backgroundColor={backgroundColor ?? myTheme.palette.menu.default}>
-        <Avatar source={{ uri: imageUri }} size={36} />
+        <Icon size={32} name={iconName} color="#FFFFFF" />
       </IconContainer>
       <Label>{label}</Label>
     </Container>
