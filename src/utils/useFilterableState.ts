@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import resolve from './resolveProperty';
 
-const useFilterData = (initialData: Array<any> = [], key: any) => {
+const useFilterableState = (initialData: Array<any> = [], key: any) => {
   const [data, setData] = useState(initialData);
 
   const [filter, setFilter] = useState<any>(null);
@@ -17,4 +17,4 @@ const useFilterData = (initialData: Array<any> = [], key: any) => {
   return { data, setFilter, filter };
 };
 
-export default useFilterData;
+export default useFilterableState;

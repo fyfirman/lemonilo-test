@@ -1,5 +1,5 @@
 import { act, renderHook } from '@testing-library/react-hooks';
-import useFilterData from '@utils/useFilterData';
+import useFilterData from '@utils/useFilterableState';
 
 const initialData = [
   {

@@ -1,4 +1,4 @@
-import useFilterData from '@utils/useFilterData';
+import useFilterableState from '@utils/useFilterableState';
 import React from 'react';
 import styled from 'styled-components/native';
 import FilterButton from './FilterButton';
@@ -17,7 +17,7 @@ const FilterContainer = styled.ScrollView`
 `;
 
 const FilterableSwiper = ({ data, filterOptions, filterBy, onPress }: FilterableSwiperProps) => {
-  const filterableState = useFilterData(data, filterBy);
+  const filterableState = useFilterableState(data, filterBy);
 
   const handleFilter = (key?: number) => {
     filterableState.setFilter(key);
