@@ -1,4 +1,4 @@
-import Avatar from '@components/Avatar';
+import Avatar from '@components/Avatar/Avatar';
 import React from 'react';
 import styled from 'styled-components/native';
 import AccountAction from './AccountAction';
