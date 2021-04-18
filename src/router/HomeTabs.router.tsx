@@ -2,11 +2,8 @@ import React from 'react';
 import Icon from 'react-native-ionicons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from '@screens/homeScreen/HomeScreen';
-import SavedScreen from '@screens/savedScreen/SavedScreen';
-import MyBookingScreen from '@screens/myBookingScreen/MyBookingScreen';
-import MyInboxScreen from '@screens/myInboxScreen/MyInboxScreen';
-import MyAccountScreen from '@screens/myAccountScreen/MyAccountScreen';
 import theme from '@theme/theme';
+import UnderConstruct from '@components/UnderConstruct';
 
 const Tab = createBottomTabNavigator();
 
@@ -37,22 +34,22 @@ const HomeTabsRouter = () => {
       />
       <Tab.Screen
         name="Saved"
-        component={SavedScreen}
+        component={UnderConstruct}
         options={{ title: 'Saved', tabBarIcon: getTabBarIcon('bookmark') }}
       />
       <Tab.Screen
         name="MyBooking"
-        component={MyBookingScreen}
+        component={UnderConstruct}
         options={{ title: 'My Booking', tabBarIcon: getTabBarIcon('bookmarks') }}
       />
       <Tab.Screen
         name="MyInbox"
-        component={MyInboxScreen}
+        component={UnderConstruct}
         options={{ title: 'My Inbox', tabBarIcon: getTabBarIcon('mail-open') }}
       />
       <Tab.Screen
         name="MyAccount"
-        component={MyAccountScreen}
+        component={UnderConstruct}
         options={{ title: 'My Account', tabBarIcon: getTabBarIcon('contact') }}
       />
     </Tab.Navigator>
