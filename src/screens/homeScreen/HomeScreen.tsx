@@ -46,7 +46,7 @@ const HomeScreen = () => {
         <Content>
           <Menu onPress={() => navigation.navigate('UnderConstruct')} />
           <Section>
-            <Heading>Travelemon Deals!</Heading>
+            <Heading>Travenilo Deals!</Heading>
             <Description>Get discount up to 99% and special offers on various products</Description>
             <Banner onPress={() => Linking.openURL('https://fyfirman.tech')} />
           </Section>
