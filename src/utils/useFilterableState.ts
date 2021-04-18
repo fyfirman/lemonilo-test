@@ -3,15 +3,15 @@ import resolve from './resolveProperty';
 
 const useFilterableState = (initialData: Array<any> = [], key: any) => {
   const [data, setData] = useState(initialData);
-
   const [filter, setFilter] = useState<any>(null);
 
   useEffect(() => {
+    let updatedData = initialData;
     if (filter) {
-      setData(initialData.filter((value) => resolve(key, value) === filter));
-    } else {
-      setData(initialData);
+      updatedData = initialData.filter((value) => resolve(key, value) === filter);
     }
+
+    setData(updatedData);
   }, [filter]);
 
   return { data, setFilter, filter };
