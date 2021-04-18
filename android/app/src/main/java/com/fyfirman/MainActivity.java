@@ -1,4 +1,4 @@
-package com.lemonilotest;
+package com.fyfirman;
 
 import com.facebook.react.ReactActivity;
 import org.devio.rn.splashscreen.SplashScreen; 

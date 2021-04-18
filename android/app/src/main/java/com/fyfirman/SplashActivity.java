@@ -1,4 +1,4 @@
-package com.lemonilotest; // ← Make sure that is your package name
+package com.fyfirman; // ← Make sure that is your package name
 
 import android.content.Intent;
 import android.os.Bundle;
