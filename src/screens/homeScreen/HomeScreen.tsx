@@ -44,7 +44,7 @@ const HomeScreen = () => {
       <ScrollView showsVerticalScrollIndicator={false}>
         <AccountInfo />
         <Content>
-          <Menu />
+          <Menu onPress={() => navigation.navigate('UnderConstruct')} />
           <Section>
             <Heading>Travelemon Deals!</Heading>
             <Description>Get discount up to 99% and special offers on various products</Description>

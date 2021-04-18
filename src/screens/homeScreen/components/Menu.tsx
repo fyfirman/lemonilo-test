@@ -31,18 +31,22 @@ const menuData: IMenu[] = [
   { label: 'All Products', iconName: 'grid' },
 ];
 
-const Menu = () => {
+interface MenuProps {
+  onPress: (menu: IMenu) => any;
+}
+
+const Menu = ({ onPress }: MenuProps) => {
   const renderMenuItems = () =>
     arrayToMatrix(menuData, 5).map((row: IMenu[], rowIndex) => (
       <MenuContainer key={rowIndex}>
-        {row.map(({ label, iconName, color }, index) => (
+        {row.map((menu, index) => (
           <MenuItem
             key={index}
-            label={label}
-            iconName={iconName}
-            backgroundColor={color}
+            label={menu.label}
+            iconName={menu.iconName}
+            backgroundColor={menu.color}
             width={45}
-            onPress={() => console.log('TODO: go to menu screen')}
+            onPress={() => onPress(menu)}
           />
         ))}
       </MenuContainer>
