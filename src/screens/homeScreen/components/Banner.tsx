@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 
 const ImageWrapper = styled.TouchableHighlight`
   border-radius: ${({ theme }) => theme.borderRadius.small}px;
-  padding: 0 ${({ theme }) => theme.spacing(2)}px;
+  margin: 0 ${({ theme }) => theme.spacing(2)}px;
 `;
 
 const ImageBanner = styled.Image`
