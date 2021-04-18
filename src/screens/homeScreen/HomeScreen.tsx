@@ -45,7 +45,6 @@ const HomeScreen = () => {
             <Heading>Travelemon Deals!</Heading>
             <Description>Get discount up to 99% and special offers on various products</Description>
             <Banner
-              imageUri="https://via.placeholder.com/350x150"
               onPress={() => console.log('Banner pressed')}
             />
           </Section>

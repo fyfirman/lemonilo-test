@@ -6,12 +6,13 @@ const ImageWrapper = styled.TouchableHighlight`
 `;
 
 const ImageBanner = styled.Image`
-  height: 150px;
+  height: 140px;
+  width: 100%;
   border-radius: ${({ theme }) => theme.borderRadius.small}px;
 `;
 
 interface BannerProps {
-  imageUri: string;
+  imageUri?: string;
   onPress: () => any;
 }
 
@@ -20,9 +21,7 @@ const Banner = (props: BannerProps) => {
   return (
     <ImageWrapper onPress={onPress}>
       <ImageBanner
-        source={{
-          uri: imageUri,
-        }}
+        source={imageUri ? { uri: imageUri } : require('@assets/images/banner-blue.png')}
         resizeMode="cover"
       />
     </ImageWrapper>
