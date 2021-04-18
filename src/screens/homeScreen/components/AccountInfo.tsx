@@ -1,7 +1,7 @@
 import Avatar from '@components/Avatar/Avatar';
 import React from 'react';
 import styled from 'styled-components/native';
-import AccountAction from './AccountAction';
+import AccountAction from './AccountAction/AccountAction';
 
 const Container = styled.View`
   background-color: ${({ theme }) => theme.palette.background.grey};
